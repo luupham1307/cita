@@ -1,0 +1,41 @@
+/* text */
+.text-xs {
+  font-size: 0.75rem; 
+  line-height: calc(30 / 12);
+}
+    .text-sm {
+    font-size: 0.875rem; 
+    line-height: 142.857% ;
+  }
+  
+  .text-md {
+    font-size: 1rem;
+    line-height: calc(30 / 16);
+  }
+  
+  .text-lg {
+   
+  }
+  .text-xl {
+    
+  }
+
+/* font weight */
+  .font-bold {
+    font-weight: 700;
+  }
+  .font-semibold {
+    font-weight: 600;
+
+  }
+  .font-medium {
+    font-weight: 500;
+  }
+
+   /* text +font */
+   .text-semibold {
+    font-size: 0.875rem; 
+    font-weight: 600;
+    line-height: 128.571%;
+    /* fs: 14px, lh: 18px */
+  }
