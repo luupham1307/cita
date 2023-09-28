@@ -1,4 +1,29 @@
 /*lu-main-container*/
+.lu-main {
+    margin-top: 1rem;
+}
 .lu-main-container {
     display: flex;
+    gap: 1rem;
+}
+.lu-dashboard {
+    border-radius: 12px;
+    background-color: var(--bg-color) ;
+   
+    width: 20%;
+    /* display: none; */
+}
+.lu-dashboard-inner ,.lu-dashboard h6{
+    padding: 8px 4px 8px 16px;
+}
+.lu-dashboard-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lu-dashboard-inner {
+    font-size: 0.875rem; 
+}
+.lu-wrapper-body {
+    width: 80%;
 }

@@ -16,7 +16,8 @@ body {
   font-weight: 400;
   line-height: var(--lh-base);
   color: var(--black);
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
+  background: var(--grey-50, #F6F6F7);
 }
 
 main {
@@ -28,7 +29,7 @@ main {
 img,
 iframe {
   display: block;
-  /* width: 100%; */
+  width: 100%;
   height: auto;
 } 
 
