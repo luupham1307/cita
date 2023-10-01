@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Fontawesome Icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <title>Cita</title>
+        <script src="./assets/js/components/navbar.js" type="text/javascript"></script>
+        <script src="./assets/js/components/mobile-nav.js"></script>
+        <script src="./assets/js/components/footer.js"></script>
+        <script src="./assets/js/components/product-card.js"></script>
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <navbar-component></navbar-component>
+        <mobilenav-component></mobilenav-component>
+        <main>
+            <div class="content-container">
+
+                <!-- Breadcrumb -->
+                <div class="breadcrumb">
+                    <p>Trang chủ</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M8.47204 4.18483C8.26371 4.14233 8.03954 4.16066 7.84871 4.289C7.46787 4.54399 7.36121 5.07733 7.61537 5.46066L10.6254 9.99149L7.61537 14.5231C7.36121 14.9056 7.46787 15.4398 7.84871 15.6948C8.23037 15.9498 8.76204 15.8431 9.0162 15.4606L12.3379 10.4607C12.5237 10.1807 12.5237 9.80315 12.3379 9.52315L9.0162 4.52317C8.88954 4.3315 8.68037 4.2265 8.47204 4.18483Z" fill="#5A5955"/>
+                    </svg>
+                    <p>Mẹ & bé</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M8.47204 4.18483C8.26371 4.14233 8.03954 4.16066 7.84871 4.289C7.46787 4.54399 7.36121 5.07733 7.61537 5.46066L10.6254 9.99149L7.61537 14.5231C7.36121 14.9056 7.46787 15.4398 7.84871 15.6948C8.23037 15.9498 8.76204 15.8431 9.0162 15.4606L12.3379 10.4607C12.5237 10.1807 12.5237 9.80315 12.3379 9.52315L9.0162 4.52317C8.88954 4.3315 8.68037 4.2265 8.47204 4.18483Z" fill="#5A5955"/>
+                    </svg>
+                    <p class="font-semibold text-black">Vành gội đầu chống nước vô mắt bé</p>
+                </div>
+
+                <!-- Product Details -->
+                <div class="product-detail">
+                    <!-- Detail img -->
+                    <div class="product-detail-img section-container ">
+                        <img class="product-main-img" src="./assets/image/product-detail/san-pham.png" alt="">
+                        <div class="flex gap-12 product-sub-img">
+                            <img src="./assets/image/product-detail/sub-img1.png" alt="">
+                            <img src="./assets/image/product-detail/sub-img2.png" alt="">
+                        </div>
+                        <div class="flex product-detail-like-share">
+                            <div class="flex">
+                                <p>Chia sẻ:</p>
+                                <img src="./assets/image/product-detail/facebook.svg" alt="">
+                                <img src="./assets/image/product-detail/yalo.svg" alt="">
+                            </div>
+                            <span>|</span>
+                            <div class="flex">
+                                <img src="./assets/image/product-detail/heart-3.svg" alt="">
+                                <p>Đã thích (1.1k)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-container ">
+                        <!-- Detail text -->
+                        <div class="product-detail-text">
+                            <div>
+                                <p class="text-semigrey">Thương hiệu : <span class="font-semibold text-black">Pigeon</span></p>
+                                <h3>Sữa tắm gội dịu nhẹ cho bé 2in1 Sakura Pigeon 700ml</h3>
+                                <div class="flex gap-8 het-nghi-ra-ten-class-roi-huhu">
+                                    <h6>5.0</h6>
+                                    <div class="flex">
+                                        <img src="./assets/image/product-detail/yello-star.svg" alt="">
+                                        <img src="./assets/image/product-detail/yello-star.svg" alt="">
+                                        <img src="./assets/image/product-detail/yello-star.svg" alt="">
+                                        <img src="./assets/image/product-detail/yello-star.svg" alt="">
+                                        <img src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    </div>
+                                    <p>(xem 39 đánh giá)</p>
+                                    <span>|</span>
+                                    <h6>5k+</h6>
+                                    <h6>đã bán</h6>
+                                </div>
+                            </div>
+                            <div class="product-detail-price">
+                                <h2 class="text-xl">212.500đ</h2>
+                                <div class="flex gap-8 w-full">
+                                    <img class="icon-md" src="./assets/image/product-detail/coupon.svg" alt="">
+                                    <p>Thanh toán qua ví Voucher:</p>
+                                    <p>106.00đ</p>
+                                </div>
+                            </div>
+                            <div class="flex product-detail-categories">
+                                <p class="text-grey">Màu sắc</p>
+                                <div class="flex gap-8 product-categories-btn">
+                                    <button class="categories-active">Đỏ</button>
+                                    <button>Xanh</button>
+                                    <button>Vàng</button>
+                                </div>
+                            </div>
+                            <div class="flex product-quantity">
+                                <p class="text-grey">Số lượng</p>
+                                <div class="flex product-quantity-btn gap-4">
+                                    <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                            <path d="M4.16675 9.1665H15.8334V10.8332H4.16675V9.1665Z" fill="#A9A9A6"/>
+                                        </svg>
+                                    </button>
+                                    <p>1</p>
+                                    <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                            <path d="M9.16675 9.1665V4.1665H10.8334V9.1665H15.8334V10.8332H10.8334V15.8332H9.16675V10.8332H4.16675V9.1665H9.16675Z" fill="#0B0A0A"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <p class="text-grey">104 sản phẩm có sẵn</p>
+                            </div>
+                        </div>
+    
+                        <!-- Buy button -->
+                        <div class="flex gap-12 buy-btn-group">
+                            <button class="flex gap-8 add-to-cart-btn">
+                                <img class="icon-md" src="./assets/image/navbar/cart.svg" alt="">
+                                <p class="text-white font-semibold">Thêm vào giỏ hàng</p>
+                            </button>
+                            <button class="buy-now-btn">
+                                <p class="font-semibold">Mua ngay</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sản phẩm đã xem -->
+                <div class="section-container product-listing flex">
+                    <div class="product-listing-header flex w-full">
+                        <div class="flex gap-12">
+                            <img class="icon-lg" src="./assets/image/product-detail/store-icon.svg" alt="">
+                            <h4>Sản phẩm đã xem</h4>
+                        </div>
+                        <div class="flex gap-4">
+                            <a>Xem thêm</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M8.47179 4.18507C8.26346 4.14257 8.03929 4.16091 7.84846 4.28924C7.46763 4.54424 7.36096 5.07758 7.61513 5.46091L10.6251 9.99174L7.61513 14.5234C7.36096 14.9059 7.46763 15.4401 7.84846 15.6951C8.23013 15.9501 8.76179 15.8434 9.01596 15.4609L12.3376 10.4609C12.5234 10.1809 12.5234 9.8034 12.3376 9.5234L9.01596 4.52341C8.88929 4.33174 8.68013 4.22674 8.47179 4.18507Z" fill="#5A5955"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="product-card-list flex gap-10">
+                        <productCard-component></productCard-component>
+                        <productCard-component></productCard-component>
+                        <productCard-component></productCard-component>
+                        <productCard-component></productCard-component>
+                        <productCard-component></productCard-component>
+                        <productCard-component></productCard-component>
+                        <productCard-component></productCard-component>
+                        <productCard-component></productCard-component>
+                    </div>
+                </div>
+
+                <!-- Sản phẩm tương tự -->
+                <div class="section-container product-listing flex">
+                    <div class="product-listing-header flex w-full">
+                        <div class="flex gap-12">
+                            <img class="icon-lg" src="./assets/image/product-detail/store1-icon.svg" alt="">
+                            <h4>Sản phẩm tương tự</h4>
+                        </div>
+                        <div class="flex gap-4">
+                            <a>Xem thêm</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M8.47179 4.18507C8.26346 4.14257 8.03929 4.16091 7.84846 4.28924C7.46763 4.54424 7.36096 5.07758 7.61513 5.46091L10.6251 9.99174L7.61513 14.5234C7.36096 14.9059 7.46763 15.4401 7.84846 15.6951C8.23013 15.9501 8.76179 15.8434 9.01596 15.4609L12.3376 10.4609C12.5234 10.1809 12.5234 9.8034 12.3376 9.5234L9.01596 4.52341C8.88929 4.33174 8.68013 4.22674 8.47179 4.18507Z" fill="#5A5955"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="product-card-list flex gap-10">
+                        <productCard-component></productCard-component>
+                        <productCard-component></productCard-component>
+                        <productCard-component></productCard-component>
+                        <productCard-component></productCard-component>
+                        <productCard-component></productCard-component>
+                        <productCard-component></productCard-component>
+                        <productCard-component></productCard-component>
+                        <productCard-component></productCard-component>
+                    </div>
+                </div>
+
+                <!-- Chi tiết sản phẩm -->
+                <div class="section-container product-information flex">
+                    <h4>Chi tiết sản phẩm</h4>
+                    <div class="product-detailed-information">
+                        <div class="flex product-detailed-row">
+                            <p class="text-semigrey">Tên sản phẩm</p>
+                            <p>Bỉm tã quần Huggies Platinum Nature Made size XXL 26 miếng (trên 15kg)</p>
+                            
+                        </div>
+                        <div class="flex product-detailed-row">
+                            <p class="text-semigrey">Thương hiệu</p>
+                            <p>Huggies</p>
+                            
+                        </div>
+                        <div class="flex product-detailed-row">
+                            <p class="text-semigrey">Xuất xứ thương hiệu</p>
+                            <p>Mỹ</p>
+                        </div>
+                        <div class="flex product-detailed-row">
+                            <p class="text-semigrey">Sản xuất tại</p>
+                            <p>Trung Quốc, đóng gói tại Việt Nam</p>
+                            
+                        </div>
+                        <div class="flex product-detailed-row">
+                            <p class="text-semigrey">Kích cỡ(size)</p>
+                            <p>XXL, trên 15kg</p>
+                            
+                        </div>
+                        <div class="flex product-detailed-row">
+                            <p class="text-semigrey">Số miếng</p>
+                            <p>26</p>
+                            
+                        </div>
+                        <div class="flex product-detailed-row">
+                            <p class="text-semigrey">Chất liệu</p>
+                            <p>Polyolefin, Polyester, bột giấy, hạt polymer siêu thấm, màng đáy PE, màng vải không dệt, thun đàn hồi, keo kết dính, sợi thiên nhiên, vitamin E</p>
+                            
+                        </div>
+                        <!-- <div class="text-semigrey">
+                            <p>Tên sản phẩm</p>
+                            <p>Thương hiệu</p>
+                            <p>Xuất xứ thương hiệu</p>
+                            <p>Sản xuất tại</p>
+                            <p>Kích cỡ(size)</p>
+                            <p>Số miếng</p>
+                            <p>Chất liệu</p>
+                        </div>
+                        <div>
+                            <p>Bỉm tã quần Huggies Platinum Nature Made size XXL 26 miếng (trên 15kg)</p>
+                            <p>Huggies</p>
+                            <p>Mỹ</p>
+                            <p>Trung Quốc, đóng gói tại Việt Nam</p>
+                            <p>XXL, trên 15kg</p>
+                            <p>26</p>
+                            <p>Polyolefin, Polyester, bột giấy, hạt polymer siêu thấm, màng đáy PE, màng vải không dệt, thun đàn hồi, keo kết dính, sợi thiên nhiên, vitamin E</p>
+                        </div> -->
+                    </div>
+                </div>
+
+                <!-- Mô tả sản phẩm -->
+                <div class="section-container product-information flex product-describe">
+                    <h4>Mô tả sản phẩm</h4>
+                    <div class="flex gap-8 content">
+                        <p>Sản phẩm được tinh chế phù hợp với các tiêu chuẩn về an toàn và hiệu quả.Sữa tắm gội toàn thân Johnson's ® Top-To-Toe™ Hair & Body Baby Bath làm sạch một cách nhẹ nhàng làn da mỏng manh của trẻ sơ sinh và dịu nhẹ như nước tinh khiết.</p>
+                        <h5>Ưu điểm nổi bật</h5>
+                        <p>Giúp làm sạch một cách nhẹ nhàng làn da mỏng manh của trẻ sơ sinh và dịu nhẹ như nước tinh khiết;. Sản phẩm có độ pH cân bằng, hypoallergenic;. Phù hợp cho trẻ sơ sinh ngay từ lần sử dụng đầu tiên;. Được các bác sĩ nhi khoa kiểm nghiệm.</p>
+                        <img class="w-full" src="./assets/image/product-detail/san-pham(1).png" alt="">
+                        <h5>Hướng dẫn sử dụng</h5>
+                        <p>Gỡ niêm phong để mở nắp.. Làm ướt tóc và người bé bằng nước ấm, tắm cho bé bằng tay, khăn mặt hoặc bông tắm, xoa nhẹ nhàng và rửa sạch.. Để có hiệu quả tốt nhất, nên dùng cùng sữa dưỡng thể hoặc dầu mát xa Johnson’s®.</p>
+                    </div>
+                    <div>
+                        <button class="flex gap-8 font-semibold more-less-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M4.85535 7.52448C4.64702 7.56615 4.43702 7.67115 4.30952 7.86198C4.05452 8.24365 4.16118 8.77531 4.54368 9.02948L9.53618 12.3503C9.81534 12.5361 10.1928 12.5361 10.472 12.3503L15.4645 9.02948C15.847 8.77531 15.9537 8.24365 15.6987 7.86198C15.4437 7.48032 14.9112 7.37365 14.5287 7.62865L10.0037 10.6378L5.47951 7.62865C5.28868 7.50115 5.06452 7.48282 4.85535 7.52448Z" fill="#FD7016"/>
+                            </svg>
+                            <p>Xem thêm</p>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Đánh giá sản phẩm -->
+                <div class="section-container product-information product-rating flex">
+                    <h4>Đánh giá sản phẩm</h4>
+                    <div class="section-container product-rating-header w-full">
+                        <div class="product-rating-detail flex">
+                            <h2>5.0</h2>
+                            <div>
+                                <div class="flex">
+                                    <img class="icon-sm" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    <img class="icon-sm" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    <img class="icon-sm" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    <img class="icon-sm" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    <img class="icon-sm" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                </div>
+                                <p>Có 1.123 lượt đánh giá</p>
+                            </div>
+                            <div>
+                                <div class="flex gap-8">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    <img src="./assets/image/product-detail/rate-bar.svg" alt="">
+                                    <p>234</p>
+                                </div>
+                                <div class="flex gap-8">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/grey-star.svg" alt="">
+                                    <img src="./assets/image/product-detail/rate-bar.svg" alt="">
+                                    <p>234</p>
+                                </div>
+                                <div class="flex gap-8">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/grey-star.svg" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/grey-star.svg" alt="">
+                                    <img src="./assets/image/product-detail/rate-bar.svg" alt="">
+                                    <p>234</p>
+                                </div>
+                                <div class="flex gap-8">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/grey-star.svg" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/grey-star.svg" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/grey-star.svg" alt="">
+                                    <img src="./assets/image/product-detail/rate-bar.svg" alt="">
+                                    <p>234</p>
+                                </div>
+                                <div class="flex gap-8">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/grey-star.svg" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/grey-star.svg" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/grey-star.svg" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/grey-star.svg" alt="">
+                                    <img src="./assets/image/product-detail/rate-bar.svg" alt="">
+                                    <p>234</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex gap-8 product-rating-filter-btn">
+                            <button class="rating-btn-active">Mới nhất</button>
+                            <button>5 sao</button>
+                            <button>4 sao</button>
+                            <button>3 sao</button>
+                            <button>2 sao</button>
+                            <button>1 sao</button>
+                            <button>Có hình</button>
+                        </div>
+                    </div>
+                    <div class="product-rating-comment-list w-full">
+                        <div class="flex gap-12">
+                            <img class="comment-avatar" src="./assets/image/product-detail/Avatar.png" alt="">
+                            <div class="w-full">
+                                <div class="product-rating-text flex">
+                                    <div>
+                                        <h5>Đặng Thuý Hồng</h5>
+                                        <div class="flex gap-12">
+                                            <div class="flex">
+                                                <img src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                <img src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                <img src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                <img src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                <img src="./assets/image/product-detail/yello-star.svg" alt="">
+                                            </div>
+                                            <p class="text-grey">20/08/2023 18:50</p>
+                                        </div>
+                                    </div>
+                                    <button class="flex gap-8">
+                                        <img class="icon-md" src="./assets/image/product-detail/heart-3.svg" alt="">
+                                        <p>Hữu ích</p>
+                                    </button>
+                                </div>
+                                <p class="text-sm rating-comment">Béo và thơm ngon nhé</p>
+                                <div class="flex gap-10 product-rating-img">
+                                    <img src="./assets/image/product-detail/tra-sua.png" alt="">
+                                    <img src="./assets/image/product-detail/tra-sua.png" alt="">
+                                    <img src="./assets/image/product-detail/tra-sua.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-rating-comment-list w-full">
+                        <div class="flex gap-12">
+                            <img class="comment-avatar" src="./assets/image/product-detail/Avatar.png" alt="">
+                            <div class="w-full">
+                                <div class="product-rating-text flex">
+                                    <div>
+                                        <h5>Đặng Thuý Hồng</h5>
+                                        <div class="flex gap-12">
+                                            <div class="flex">
+                                                <img src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                <img src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                <img src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                <img src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                <img src="./assets/image/product-detail/yello-star.svg" alt="">
+                                            </div>
+                                            <p class="text-grey">20/08/2023 18:50</p>
+                                        </div>
+                                    </div>
+                                    <button class="flex gap-8">
+                                        <img class="icon-md" src="./assets/image/product-detail/heart-3.svg" alt="">
+                                        <p>Hữu ích</p>
+                                    </button>
+                                </div>
+                                <p class="text-sm rating-comment">Béo và thơm ngon nhé</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-rating-comment-list w-full">
+                        <div class="flex gap-12">
+                            <img class="comment-avatar" src="./assets/image/product-detail/Avatar.png" alt="">
+                            <div class="w-full">
+                                <div class="product-rating-text flex">
+                                    <div>
+                                        <h5>Đặng Thuý Hồng</h5>
+                                        <div class="flex gap-12">
+                                            <div class="flex">
+                                                <img src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                <img src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                <img src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                <img src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                <img src="./assets/image/product-detail/yello-star.svg" alt="">
+                                            </div>
+                                            <p class="text-grey">20/08/2023 18:50</p>
+                                        </div>
+                                    </div>
+                                    <button class="flex gap-8">
+                                        <img class="icon-md" src="./assets/image/product-detail/heart-3.svg" alt="">
+                                        <p>Hữu ích</p>
+                                    </button>
+                                </div>
+                                <p class="text-sm rating-comment">Béo và thơm ngon nhé</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rating-button-group">
+                        <p class="text-semigrey text-xs">(100+ đánh giá)</p>
+                        <button class="flex gap-8 font-semibold more-less-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M4.85535 7.52448C4.64702 7.56615 4.43702 7.67115 4.30952 7.86198C4.05452 8.24365 4.16118 8.77531 4.54368 9.02948L9.53618 12.3503C9.81534 12.5361 10.1928 12.5361 10.472 12.3503L15.4645 9.02948C15.847 8.77531 15.9537 8.24365 15.6987 7.86198C15.4437 7.48032 14.9112 7.37365 14.5287 7.62865L10.0037 10.6378L5.47951 7.62865C5.28868 7.50115 5.06452 7.48282 4.85535 7.52448Z" fill="#FD7016"/>
+                            </svg>
+                            <p>Xem thêm</p>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Gợi ý hôm nay -->
+                <div class="product-recomendation-container">
+                    <h4>Gợi ý hôm nay</h4>
+                    <div class="product-recomendation w-full">
+                        <div class="section-container">
+                            <productCard-component></productCard-component>
+                        </div>
+                        <div class="section-container">
+                            <productCard-component></productCard-component>
+                        </div>
+                        <div class="section-container">
+                            <productCard-component></productCard-component>
+                        </div>
+                        <div class="section-container">
+                            <productCard-component></productCard-component>
+                        </div>
+                        <div class="section-container">
+                            <productCard-component></productCard-component>
+                        </div>
+                        <div class="section-container">
+                            <productCard-component></productCard-component>
+                        </div>
+                        <div class="section-container">
+                            <productCard-component></productCard-component>
+                        </div>
+                        <div class="section-container">
+                            <productCard-component></productCard-component>
+                        </div>
+                        <div class="section-container">
+                            <productCard-component></productCard-component>
+                        </div>
+                        <div class="section-container">
+                            <productCard-component></productCard-component>
+                        </div>
+                        <div class="section-container">
+                            <productCard-component></productCard-component>
+                        </div>
+                        <div class="section-container">
+                            <productCard-component></productCard-component>
+                        </div>
+                        <div class="section-container">
+                            <productCard-component></productCard-component>
+                        </div>
+                        <div class="section-container">
+                            <productCard-component></productCard-component>
+                        </div>
+                        <div class="section-container">
+                            <productCard-component></productCard-component>
+                        </div>
+                    </div>
+                    <div class="recomendation-button-group flex">
+                        <button class="flex gap-8 font-semibold more-less-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M4.85535 7.52448C4.64702 7.56615 4.43702 7.67115 4.30952 7.86198C4.05452 8.24365 4.16118 8.77531 4.54368 9.02948L9.53618 12.3503C9.81534 12.5361 10.1928 12.5361 10.472 12.3503L15.4645 9.02948C15.847 8.77531 15.9537 8.24365 15.6987 7.86198C15.4437 7.48032 14.9112 7.37365 14.5287 7.62865L10.0037 10.6378L5.47951 7.62865C5.28868 7.50115 5.06452 7.48282 4.85535 7.52448Z" fill="#FD7016"/>
+                            </svg>
+                            <p>Xem thêm</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer-component></footer-component>
+
+    </body>
+    <script>
+        const button = document.querySelector('.more-less-btn');
+        const content = document.querySelector('.content');
+        let isExpanded = false;
+        button.addEventListener('click', function() {
+            if (!isExpanded) {
+                content.style.height = 'auto';
+                button.textContent = 'Thu gọn';
+            } else {
+                content.style.height = '450px';
+                // content.style.overflow = 'hidden'
+                button.innerHTML = `
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M4.85535 7.52448C4.64702 7.56615 4.43702 7.67115 4.30952 7.86198C4.05452 8.24365 4.16118 8.77531 4.54368 9.02948L9.53618 12.3503C9.81534 12.5361 10.1928 12.5361 10.472 12.3503L15.4645 9.02948C15.847 8.77531 15.9537 8.24365 15.6987 7.86198C15.4437 7.48032 14.9112 7.37365 14.5287 7.62865L10.0037 10.6378L5.47951 7.62865C5.28868 7.50115 5.06452 7.48282 4.85535 7.52448Z" fill="#FD7016"/>
+                </svg>
+                <p>Xem thêm</p>
+                `;
+            }
+            isExpanded = !isExpanded;
+        });
+    </script>
+</html>

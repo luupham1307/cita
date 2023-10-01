@@ -1,0 +1,90 @@
+/* Phần trên */
+.footer-header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-items: start;
+    background-color: var(--bg-color);
+}
+.footer-header-item {
+    display: flex;
+    padding: 16px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 25%;
+    text-align: center;
+}
+.footer-header-item div:first-child {
+    height: 54px;
+}
+.footer-header-item p:last-child {
+    color: #5A5955;
+}
+
+/* Phần giữa */
+.footer-main {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: var(--footer-color);
+    display: grid;
+	grid-template-columns: 23% 17% 35% 21%;
+    gap: 10px;
+}
+.footer-title {
+    margin-bottom: 16px;
+}
+.footer-logo {
+    height: 90px;
+    margin-bottom: 32px;
+}
+.footer-2nd-col li, .footer-1st-col p{
+    margin-bottom: 8px;
+}
+.footer-3rd-col {
+    display: flex;
+    flex-direction: column;
+}
+.footer-partner {
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.footer-partner img {
+    height: 24px;
+    max-width: 100px;
+}
+.footer-bocongthuong{
+    width: 124px;
+    height: 46.5px;
+}
+.footer-4th-col p {
+    margin-bottom: 16px;
+}
+.footer-download a{
+    width: 124px;
+    height: 36px;
+    margin-bottom: 8px;
+}
+.footer-download {
+    margin-bottom: 32px;
+}
+.footer-social {
+    width: 32px;
+    height: 32px;
+    gap: 12px;
+}
+
+/* Phần dưới */
+.footer-bottom {
+    color: var(--bg-color);
+    background-color: var(--primary-color);
+    color: var(--grey-white, #FCFCFC);
+    text-align: center;
+    font-size: 14px;
+    padding: 24px 0;
+}
+
+@media (max-width: 768px) {
+    footer {
+        display: none;
+    }
+}

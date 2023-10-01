@@ -6,7 +6,7 @@
   --bg-color: #FCFCFC;
   --footer-color: #FFF7ED;
   --white: white;
-  --black: black;
+  --black: #0B0A0A;
   /* Typograohy */
   --body-ff: 'Inter', sans-serif;
 
@@ -14,7 +14,7 @@
   --lh-base: calc(30 / 16);
 
   /* Border radius */
-  --rounded: 0.625rem;
+  --rounded: 12px;
   --rounded-lg: 3.125rem;
   --rounded-full: 9999px;
 
@@ -30,4 +30,12 @@
   /* Transition */
   --transition: all 0.3s ease;
 
+  /* Gap */
+  --gap-4: 4px;
+  --gap-8: 8px;
+  --gap-10: 10px;
+  --gap-12: 12px;
+  --gap-24: 24px;
+  --gap-32: 32px;
+  --gap-40: 40px;
 }
