@@ -17,8 +17,68 @@
 
     <body>
         <!-- Navbar -->
-        <navbar-component></navbar-component>
-        <mobilenav-component></mobilenav-component>
+        <!-- Desktop nav -->
+        <nav class="text-white desktop-nav">
+            <div class="content-container flex top-bar text-sm">
+                <div class="flex">
+                    <img src="./assets/image/navbar/customer-service.svg" alt="">
+                    <p>Tổng đài hỗ trợ: <span class="font-semibold">0907950255</span></p>
+                </div>
+                <div class="flex">
+                    <img src="./assets/image/navbar/map-pin-2.svg" alt="">
+                    <p>Giao đến <span class="font-semibold">Quận 1, TP. Hồ Chí Minh</span></p>
+                </div>
+                <div class="flex">
+                    <img src="./assets/image/navbar/user.svg" alt="">
+                    <div class="flex font-semibold">
+                        <a href="">Đăng ký</a>
+                        <span>/</span>
+                        <a href="">Đăng nhập</a>
+                    </div>
+                </div>
+            </div>
+            <div class="content-container main-bar flex">
+                <div>
+                    <img src="./assets/image/navbar/Logo-full1.svg" alt="">
+                </div>
+                <div class="search-input-container">
+                    <input type="text" placeholder="Bạn tìm gì...">
+                    <button type="submit" class="search-btn">
+                        <img src="./assets/image/navbar/search-icon.svg" alt="">
+                    </button>
+                </div>
+                <div class="flex cart-noti-icon">
+                    <a href="">
+                        <img class="nav-main-bar-icons" src="./assets/image/navbar/cart.svg" alt="">
+                        <p>Giỏ hàng</p>
+                    </a>
+                    <a href="">
+                        <img class="nav-main-bar-icons" src="./assets/image/navbar/notification-3.svg" alt="">
+                        <p>Ưu đãi</p>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <!-- Mobile nav -->
+        <nav class="content-container flex text-grey mobile-nav">
+            <a class="mobile-navlink" href="">
+                <img src="./assets/image/navbar/mobile-home.svg" alt="">
+                <p>Trang chủ</p>
+            </a>
+            <a class="mobile-navlink" href="">
+                <img src="./assets/image/navbar/mobile-search.svg" alt="">
+                <p>Tìm kiếm</p>
+            </a>
+            <a class="mobile-navlink" href="">
+                <img src="./assets/image/navbar/mobile-cart.svg" alt="">
+                <p>Giỏ hàng</p>
+            </a>
+            <a class="mobile-navlink" href="">
+                <img src="./assets/image/navbar/mobile-user.svg" alt="">
+                <p>Cá nhân</p>
+            </a>
+        </nav>
+
         <main>
             <div class="content-container">
 
@@ -142,14 +202,141 @@
                         </div>
                     </div>
                     <div class="product-card-list flex gap-10">
-                        <productCard-component></productCard-component>
-                        <productCard-component></productCard-component>
-                        <productCard-component></productCard-component>
-                        <productCard-component></productCard-component>
-                        <productCard-component></productCard-component>
-                        <productCard-component></productCard-component>
-                        <productCard-component></productCard-component>
-                        <productCard-component></productCard-component>
+                        <div class="product-card-item gap-10">
+                            <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                            <div class="flex gap-8">
+                                <div class="flex">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                </div>
+                                <p>(1.1k)</p>
+                            </div>
+                            <h5>86.000đ</h5>
+                        </div>
+                        <div class="product-card-item gap-10">
+                            <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                            <div class="flex gap-8">
+                                <div class="flex">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                </div>
+                                <p>(1.1k)</p>
+                            </div>
+                            <h5>86.000đ</h5>
+                        </div>
+                        <div class="product-card-item gap-10">
+                            <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                            <div class="flex gap-8">
+                                <div class="flex">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                </div>
+                                <p>(1.1k)</p>
+                            </div>
+                            <h5>86.000đ</h5>
+                        </div>
+                        <div class="product-card-item gap-10">
+                            <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                            <div class="flex gap-8">
+                                <div class="flex">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                </div>
+                                <p>(1.1k)</p>
+                            </div>
+                            <h5>86.000đ</h5>
+                        </div>
+                        <div class="product-card-item gap-10">
+                            <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                            <div class="flex gap-8">
+                                <div class="flex">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                </div>
+                                <p>(1.1k)</p>
+                            </div>
+                            <h5>86.000đ</h5>
+                        </div>
+                        <div class="product-card-item gap-10">
+                            <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                            <div class="flex gap-8">
+                                <div class="flex">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                </div>
+                                <p>(1.1k)</p>
+                            </div>
+                            <h5>86.000đ</h5>
+                        </div>
+                        <div class="product-card-item gap-10">
+                            <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                            <div class="flex gap-8">
+                                <div class="flex">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                </div>
+                                <p>(1.1k)</p>
+                            </div>
+                            <h5>86.000đ</h5>
+                        </div>
+                        <div class="product-card-item gap-10">
+                            <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                            <div class="flex gap-8">
+                                <div class="flex">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                </div>
+                                <p>(1.1k)</p>
+                            </div>
+                            <h5>86.000đ</h5>
+                        </div>
+                        <div class="product-card-item gap-10">
+                            <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                            <div class="flex gap-8">
+                                <div class="flex">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                </div>
+                                <p>(1.1k)</p>
+                            </div>
+                            <h5>86.000đ</h5>
+                        </div>
                     </div>
                 </div>
 
@@ -168,14 +355,127 @@
                         </div>
                     </div>
                     <div class="product-card-list flex gap-10">
-                        <productCard-component></productCard-component>
-                        <productCard-component></productCard-component>
-                        <productCard-component></productCard-component>
-                        <productCard-component></productCard-component>
-                        <productCard-component></productCard-component>
-                        <productCard-component></productCard-component>
-                        <productCard-component></productCard-component>
-                        <productCard-component></productCard-component>
+                        <div class="product-card-item gap-10">
+                            <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                            <div class="flex gap-8">
+                                <div class="flex">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                </div>
+                                <p>(1.1k)</p>
+                            </div>
+                            <h5>86.000đ</h5>
+                        </div>
+                        <div class="product-card-item gap-10">
+                            <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                            <div class="flex gap-8">
+                                <div class="flex">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                </div>
+                                <p>(1.1k)</p>
+                            </div>
+                            <h5>86.000đ</h5>
+                        </div>
+                        <div class="product-card-item gap-10">
+                            <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                            <div class="flex gap-8">
+                                <div class="flex">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                </div>
+                                <p>(1.1k)</p>
+                            </div>
+                            <h5>86.000đ</h5>
+                        </div>
+                        <div class="product-card-item gap-10">
+                            <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                            <div class="flex gap-8">
+                                <div class="flex">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                </div>
+                                <p>(1.1k)</p>
+                            </div>
+                            <h5>86.000đ</h5>
+                        </div>
+                        <div class="product-card-item gap-10">
+                            <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                            <div class="flex gap-8">
+                                <div class="flex">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                </div>
+                                <p>(1.1k)</p>
+                            </div>
+                            <h5>86.000đ</h5>
+                        </div>
+                        <div class="product-card-item gap-10">
+                            <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                            <div class="flex gap-8">
+                                <div class="flex">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                </div>
+                                <p>(1.1k)</p>
+                            </div>
+                            <h5>86.000đ</h5>
+                        </div>
+                        <div class="product-card-item gap-10">
+                            <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                            <div class="flex gap-8">
+                                <div class="flex">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                </div>
+                                <p>(1.1k)</p>
+                            </div>
+                            <h5>86.000đ</h5>
+                        </div>
+                        <div class="product-card-item gap-10">
+                            <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                            <div class="flex gap-8">
+                                <div class="flex">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                    <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                </div>
+                                <p>(1.1k)</p>
+                            </div>
+                            <h5>86.000đ</h5>
+                        </div>
+                        
                     </div>
                 </div>
 
@@ -435,50 +735,276 @@
                     <h4>Gợi ý hôm nay</h4>
                     <div class="product-recomendation w-full">
                         <div class="section-container">
-                            <productCard-component></productCard-component>
+                            <div class="product-card-item gap-10">
+                                <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                                <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                <div class="flex gap-8">
+                                    <div class="flex">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    </div>
+                                    <p>(1.1k)</p>
+                                </div>
+                                <h5>86.000đ</h5>
+                            </div>
+                            
                         </div>
                         <div class="section-container">
-                            <productCard-component></productCard-component>
+                            <div class="product-card-item gap-10">
+                                <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                                <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                <div class="flex gap-8">
+                                    <div class="flex">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    </div>
+                                    <p>(1.1k)</p>
+                                </div>
+                                <h5>86.000đ</h5>
+                            </div>
+                            
                         </div>
                         <div class="section-container">
-                            <productCard-component></productCard-component>
+                            <div class="product-card-item gap-10">
+                                <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                                <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                <div class="flex gap-8">
+                                    <div class="flex">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    </div>
+                                    <p>(1.1k)</p>
+                                </div>
+                                <h5>86.000đ</h5>
+                            </div>
+                            
                         </div>
                         <div class="section-container">
-                            <productCard-component></productCard-component>
+                            <div class="product-card-item gap-10">
+                                <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                                <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                <div class="flex gap-8">
+                                    <div class="flex">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    </div>
+                                    <p>(1.1k)</p>
+                                </div>
+                                <h5>86.000đ</h5>
+                            </div>
+                            
                         </div>
                         <div class="section-container">
-                            <productCard-component></productCard-component>
+                            <div class="product-card-item gap-10">
+                                <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                                <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                <div class="flex gap-8">
+                                    <div class="flex">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    </div>
+                                    <p>(1.1k)</p>
+                                </div>
+                                <h5>86.000đ</h5>
+                            </div>
+                            
                         </div>
                         <div class="section-container">
-                            <productCard-component></productCard-component>
+                            <div class="product-card-item gap-10">
+                                <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                                <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                <div class="flex gap-8">
+                                    <div class="flex">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    </div>
+                                    <p>(1.1k)</p>
+                                </div>
+                                <h5>86.000đ</h5>
+                            </div>
+                            
                         </div>
                         <div class="section-container">
-                            <productCard-component></productCard-component>
+                            <div class="product-card-item gap-10">
+                                <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                                <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                <div class="flex gap-8">
+                                    <div class="flex">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    </div>
+                                    <p>(1.1k)</p>
+                                </div>
+                                <h5>86.000đ</h5>
+                            </div>
+                            
                         </div>
                         <div class="section-container">
-                            <productCard-component></productCard-component>
+                            <div class="product-card-item gap-10">
+                                <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                                <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                <div class="flex gap-8">
+                                    <div class="flex">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    </div>
+                                    <p>(1.1k)</p>
+                                </div>
+                                <h5>86.000đ</h5>
+                            </div>
+                            
                         </div>
                         <div class="section-container">
-                            <productCard-component></productCard-component>
+                            <div class="product-card-item gap-10">
+                                <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                                <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                <div class="flex gap-8">
+                                    <div class="flex">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    </div>
+                                    <p>(1.1k)</p>
+                                </div>
+                                <h5>86.000đ</h5>
+                            </div>
+                            
                         </div>
                         <div class="section-container">
-                            <productCard-component></productCard-component>
+                            <div class="product-card-item gap-10">
+                                <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                                <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                <div class="flex gap-8">
+                                    <div class="flex">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    </div>
+                                    <p>(1.1k)</p>
+                                </div>
+                                <h5>86.000đ</h5>
+                            </div>
+                            
                         </div>
                         <div class="section-container">
-                            <productCard-component></productCard-component>
+                            <div class="product-card-item gap-10">
+                                <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                                <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                <div class="flex gap-8">
+                                    <div class="flex">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    </div>
+                                    <p>(1.1k)</p>
+                                </div>
+                                <h5>86.000đ</h5>
+                            </div>
+                            
                         </div>
                         <div class="section-container">
-                            <productCard-component></productCard-component>
+                            <div class="product-card-item gap-10">
+                                <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                                <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                <div class="flex gap-8">
+                                    <div class="flex">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    </div>
+                                    <p>(1.1k)</p>
+                                </div>
+                                <h5>86.000đ</h5>
+                            </div>
+                            
                         </div>
                         <div class="section-container">
-                            <productCard-component></productCard-component>
+                            <div class="product-card-item gap-10">
+                                <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                                <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                <div class="flex gap-8">
+                                    <div class="flex">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    </div>
+                                    <p>(1.1k)</p>
+                                </div>
+                                <h5>86.000đ</h5>
+                            </div>
+                            
                         </div>
                         <div class="section-container">
-                            <productCard-component></productCard-component>
+                            <div class="product-card-item gap-10">
+                                <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                                <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                <div class="flex gap-8">
+                                    <div class="flex">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    </div>
+                                    <p>(1.1k)</p>
+                                </div>
+                                <h5>86.000đ</h5>
+                            </div>
+                            
                         </div>
                         <div class="section-container">
-                            <productCard-component></productCard-component>
+                            <div class="product-card-item gap-10">
+                                <img class="product-card-img" src="./assets/image/product-detail/tra-sua.png" alt="">
+                                <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                <div class="flex gap-8">
+                                    <div class="flex">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" class="" alt="">
+                                        <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg" alt="">
+                                    </div>
+                                    <p>(1.1k)</p>
+                                </div>
+                                <h5>86.000đ</h5>
+                            </div>
+                            
                         </div>
+                        
                     </div>
                     <div class="recomendation-button-group flex">
                         <button class="flex gap-8 font-semibold more-less-btn">
@@ -493,8 +1019,127 @@
         </main>
 
         <!-- Footer -->
-        <footer-component></footer-component>
-
+        <footer>
+            <div class="content-container flex footer-header">
+                <div class="footer-header-item">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="54" height="38" viewBox="0 0 54 38" fill="none">
+                            <path d="M42 5.25H36C32.6863 5.25 30 7.48858 30 10.25V20.25C30 23.0114 32.6863 25.25 36 25.25H42C45.3137 25.25 48 23.0114 48 20.25V10.25C48 7.48858 45.3137 5.25 42 5.25Z" fill="#98430D"/>
+                            <path d="M30 0.25H12C8.68629 0.25 6 2.48858 6 5.25V20.25C6 23.0114 8.68629 25.25 12 25.25H30C33.3137 25.25 36 23.0114 36 20.25V5.25C36 2.48858 33.3137 0.25 30 0.25Z" fill="#FD7016"/>
+                            <path d="M24.63 7.39L21 5.875L17.37 7.39C16.974 7.555 16.5 7.315 16.5 6.945V0.25H25.5V6.94C25.5 7.31 25.032 7.555 24.63 7.385V7.39Z" fill="#CA5A12"/>
+                            <path d="M40.08 37.75H13.92C11.058 37.75 8.59801 36.07 8.03401 33.73L3 12.75H51L45.966 33.73C45.408 36.065 42.942 37.75 40.08 37.75Z" fill="#FEA973"/>
+                            <path d="M28.7998 21.5C28.7998 20.8096 28.1282 20.25 27.2998 20.25C26.4714 20.25 25.7998 20.8096 25.7998 21.5V34C25.7998 34.6904 26.4714 35.25 27.2998 35.25C28.1282 35.25 28.7998 34.6904 28.7998 34V21.5Z" fill="#CA5A12"/>
+                            <path d="M16.7998 21.5C16.7998 20.8096 16.1282 20.25 15.2998 20.25C14.4714 20.25 13.7998 20.8096 13.7998 21.5V34C13.7998 34.6904 14.4714 35.25 15.2998 35.25C16.1282 35.25 16.7998 34.6904 16.7998 34V21.5Z" fill="#CA5A12"/>
+                            <path d="M40.7998 21.5C40.7998 20.8096 40.1282 20.25 39.2998 20.25C38.4714 20.25 37.7998 20.8096 37.7998 21.5V34C37.7998 34.6904 38.4714 35.25 39.2998 35.25C40.1282 35.25 40.7998 34.6904 40.7998 34V21.5Z" fill="#CA5A12"/>
+                            <path d="M51 12.75H3C1.34315 12.75 0 13.8693 0 15.25C0 16.6307 1.34315 17.75 3 17.75H51C52.6569 17.75 54 16.6307 54 15.25C54 13.8693 52.6569 12.75 51 12.75Z" fill="#CA5A12"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.2998 14.25C16.1282 14.25 16.7998 14.8096 16.7998 15.5V20.25C16.7998 25.0846 21.4982 29 27.2998 29C33.1014 29 37.7998 25.0846 37.7998 20.25V15.5C37.7998 14.8096 38.4714 14.25 39.2998 14.25C40.1282 14.25 40.7998 14.8096 40.7998 15.5V20.25C40.7998 26.4654 34.7582 31.5 27.2998 31.5C19.8414 31.5 13.7998 26.4654 13.7998 20.25V15.5C13.7998 14.8096 14.4714 14.25 15.2998 14.25Z" fill="#FCFCFC"/>
+                        </svg>
+                    </div>
+                    <p class="font-semibold">Siêu nhiều hàng tốt</p>
+                    <p class="text-xs">Cần gì cũng có hàng chục ngành hàng & hàng trăm ngàn sản phẩm</p>
+                </div>
+                <div class="footer-header-item">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="48" viewBox="0 0 38 48" fill="none">
+                            <path d="M19.0161 47.541H18.9732V47.547C8.2391 45.825 0.271484 35.517 0.271484 23.361V15.027C0.271484 12.873 1.2989 10.887 2.96841 9.81901L16.3459 1.245C17.9887 0.189003 20.0113 0.189003 21.6541 1.245L35.0316 9.81901C36.7011 10.887 37.7285 12.873 37.7285 15.027V23.355C37.7285 35.517 29.7555 45.825 19.0161 47.541Z" fill="#CA5A12"/>
+                            <path d="M17.5285 0.69314C17.1218 0.82514 16.7205 1.00513 16.3459 1.24513L2.96841 9.81913C1.2989 10.8871 0.271484 12.8731 0.271484 15.0271V23.3611C0.271484 23.4211 0.271484 23.4871 0.271484 23.5471C2.5082 25.4311 5.28537 26.5411 8.29263 26.5411C15.6824 26.5411 21.6701 19.8271 21.6701 11.5411C21.6701 7.26913 20.0755 3.42313 17.5231 0.687134L17.5285 0.69314Z" fill="#FD7016"/>
+                            <path d="M19.0108 40.785H18.9786C11.3106 39.555 5.62256 32.193 5.62256 23.511V16.521C5.62256 15.621 6.05063 14.793 6.74626 14.349L17.8924 7.20899C18.5774 6.77099 19.4175 6.77099 20.1024 7.20899L31.2485 14.349C31.9441 14.793 32.3722 15.621 32.3722 16.521V23.505C32.3722 32.193 26.6734 39.555 19.0054 40.779L19.0108 40.785Z" fill="#FEA973"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M25.2735 18.2608C25.8086 18.8321 25.8293 19.7815 25.3199 20.3815L18.187 28.7815C17.9346 29.0788 17.5845 29.2471 17.2184 29.2472C16.8523 29.2472 16.5022 29.0791 16.2497 28.7819L12.6805 24.5819C12.1709 23.9822 12.1913 23.0327 12.7262 22.4612C13.2611 21.8897 14.1078 21.9127 14.6175 22.5124L17.2178 25.5723L23.3822 18.3128C23.8917 17.7129 24.7384 17.6896 25.2735 18.2608Z" fill="#FCFCFC"/>
+                            <path d="M32.3774 35.547C30.9005 35.547 29.7019 36.891 29.7019 38.547C29.7019 39.609 30.1996 40.539 30.938 41.067C32.2223 39.699 33.3566 38.157 34.3091 36.477C33.8222 35.901 33.1372 35.541 32.3774 35.541V35.547Z" fill="#98430D"/>
+                        </svg>                    
+                    </div>
+                    <p class="font-semibold">Siêu yên tâm</p>
+                    <p class="text-xs">Miễn phí đổi trả khi hàng lỗi (*)</p>
+                </div>
+                <div class="footer-header-item">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="54" height="34" viewBox="0 0 54 34" fill="none">
+                            <path d="M6 0.666626H30C33.312 0.666626 36 2.75729 36 5.33329V28.6666H6C2.688 28.6666 0 26.576 0 24V5.33329C0 2.75729 2.688 0.666626 6 0.666626Z" fill="#FEA973"/>
+                            <path d="M36 10H44.292C46.566 10 48.642 10.9987 49.656 12.5807L53.364 18.3487C53.778 18.9973 54 19.7113 54 20.4347V24C54 26.576 51.312 28.6667 48 28.6667H36V10Z" fill="#CA5A12"/>
+                            <path d="M36 19.3333H47.556C48.45 19.3333 49.026 18.6053 48.63 17.9847L45.828 13.626C45.318 12.8374 44.28 12.338 43.146 12.338H36V19.338V19.3333Z" fill="#FCFCFC"/>
+                            <path d="M21 9.99996H27L9 19.3333L15 9.99996H9L15 0.666626H27L21 9.99996Z" fill="#FD7016"/>
+                            <path d="M45 33.3333C48.3137 33.3333 51 31.244 51 28.6667C51 26.0893 48.3137 24 45 24C41.6863 24 39 26.0893 39 28.6667C39 31.244 41.6863 33.3333 45 33.3333Z" fill="#98430D"/>
+                            <path d="M45 29.8333C45.8284 29.8333 46.5 29.311 46.5 28.6667C46.5 28.0223 45.8284 27.5 45 27.5C44.1716 27.5 43.5 28.0223 43.5 28.6667C43.5 29.311 44.1716 29.8333 45 29.8333Z" fill="#FCFCFC"/>
+                            <path d="M17.376 33.3333C20.6897 33.3333 23.376 31.244 23.376 28.6667C23.376 26.0893 20.6897 24 17.376 24C14.0623 24 11.376 26.0893 11.376 28.6667C11.376 31.244 14.0623 33.3333 17.376 33.3333Z" fill="#98430D"/>
+                            <path d="M17.376 29.8333C18.2044 29.8333 18.876 29.311 18.876 28.6667C18.876 28.0223 18.2044 27.5 17.376 27.5C16.5475 27.5 15.876 28.0223 15.876 28.6667C15.876 29.311 16.5475 29.8333 17.376 29.8333Z" fill="#FCFCFC"/>
+                        </svg>
+                    </div>
+                    <p class="font-semibold">Siêu tiện lợi</p>
+                    <p class="text-xs">Mạng lưới vận chuyển toàn quốc, mua gì cũng có</p>
+                </div>
+                <div class="footer-header-item">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="52" height="42" viewBox="0 0 52 42" fill="none">
+                            <path d="M6.16667 36.1111H45.8333C48.9613 36.1111 51.5 33.8545 51.5 31.074V26.037C46.808 26.037 43 22.6521 43 18.4814C43 14.3108 46.808 10.9259 51.5 10.9259V5.88884C51.5 3.1084 48.9613 0.851807 45.8333 0.851807H6.16667C3.03867 0.851807 0.5 3.1084 0.5 5.88884V31.074C0.5 33.8545 3.03867 36.1111 6.16667 36.1111Z" fill="#FEA973"/>
+                            <path d="M45.8334 36.1111C48.9614 36.1111 51.5001 33.8545 51.5001 31.074V26.037C46.8081 26.037 43.0001 22.6521 43.0001 18.4814C43.0001 14.3108 46.8081 10.9259 51.5001 10.9259V5.88884C51.5001 3.1084 48.9614 0.851807 45.8334 0.851807H40.1667V36.1111H45.8334Z" fill="#CA5A12"/>
+                            <path d="M31.2245 10.9713C31.8087 10.452 31.8096 9.61078 31.2265 9.09245C30.6434 8.57412 29.697 8.57492 29.1128 9.09423L10.1039 25.991C9.51968 26.5103 9.51879 27.3515 10.1019 27.8699C10.685 28.3882 11.6313 28.3874 12.2156 27.8681L31.2245 10.9713Z" fill="#FCFCFC"/>
+                            <path d="M12.7343 8.70447C10.6716 8.70447 9 10.1904 9 12.0239C9 13.8574 10.6716 15.3433 12.7343 15.3433C14.797 15.3433 16.4687 13.8574 16.4687 12.0239C16.4687 10.1904 14.797 8.70447 12.7343 8.70447ZM12.7343 13.6861C11.703 13.6861 10.8644 12.9406 10.8644 12.0239C10.8644 11.1071 11.703 10.3617 12.7343 10.3617C13.7656 10.3617 14.6043 11.1071 14.6043 12.0239C14.6043 12.9406 13.7656 13.6861 12.7343 13.6861Z" fill="#98430D"/>
+                            <path d="M27.9321 21.6193C25.8695 21.6193 24.1978 23.1052 24.1978 24.9387C24.1978 26.7722 25.8695 28.2581 27.9321 28.2581C29.9948 28.2581 31.6665 26.7722 31.6665 24.9387C31.6665 23.1052 29.9948 21.6193 27.9321 21.6193ZM27.9321 26.6009C26.9008 26.6009 26.0621 25.8554 26.0621 24.9387C26.0621 24.0219 26.9008 23.2764 27.9321 23.2764C28.9635 23.2764 29.8021 24.0219 29.8021 24.9387C29.8021 25.8554 28.9635 26.6009 27.9321 26.6009Z" fill="#98430D"/>
+                            <path d="M39.5151 41.1481C44.2096 41.1481 48.0151 37.7654 48.0151 33.5925C48.0151 29.4197 44.2096 26.037 39.5151 26.037C34.8207 26.037 31.0151 29.4197 31.0151 33.5925C31.0151 37.7654 34.8207 41.1481 39.5151 41.1481Z" fill="#FD7016"/>
+                            <path d="M40.6883 35.4613C40.6883 35.1742 40.6032 34.9425 40.4275 34.7712C40.2519 34.6 39.9572 34.4438 39.5379 34.2978C39.1186 34.1517 38.7616 34.0107 38.4612 33.8646C38.1609 33.7185 37.9002 33.5573 37.6849 33.371C37.4696 33.1846 37.2996 32.968 37.1806 32.7161C37.0616 32.4643 36.9993 32.1671 36.9993 31.8195C36.9993 31.2252 37.2032 30.7315 37.6169 30.3538C38.0306 29.9709 38.5803 29.7493 39.2659 29.6889V28.5555H40.1839V29.704C40.8639 29.7947 41.3909 30.0515 41.7762 30.4847C42.1615 30.9179 42.3485 31.477 42.3485 32.1671H40.6883C40.6883 31.744 40.5919 31.4267 40.4049 31.2151C40.2179 31.0035 39.9629 30.8978 39.6455 30.8978C39.3282 30.8978 39.0903 30.9784 38.9146 31.1446C38.7389 31.3108 38.6539 31.5375 38.6539 31.8246C38.6539 32.0915 38.7389 32.3081 38.9089 32.4693C39.0789 32.6305 39.3905 32.7967 39.8495 32.968C40.3085 33.1392 40.6826 33.2954 40.9773 33.4465C41.2719 33.5976 41.5212 33.7638 41.7252 33.9552C41.9292 34.1467 42.0822 34.3582 42.1899 34.6C42.2975 34.8418 42.3485 35.1238 42.3485 35.4462C42.3485 36.0456 42.1446 36.5342 41.7422 36.907C41.3399 37.2797 40.7789 37.5013 40.0649 37.5668V38.6195H39.1525V37.5718C38.3705 37.4963 37.7586 37.2394 37.3279 36.8012C36.8972 36.363 36.6819 35.7837 36.6819 35.0634H38.3422C38.3422 35.4815 38.4499 35.8038 38.6652 36.0305C38.8806 36.2572 39.1922 36.368 39.6002 36.368C39.9346 36.368 40.2009 36.2874 40.3992 36.1212C40.5976 35.955 40.6939 35.7333 40.6939 35.4563L40.6883 35.4613Z" fill="#FCFCFC"/>
+                        </svg>
+                    </div>
+                    <p class="font-semibold">Siêu tiết kiệm</p>
+                    <p class="text-xs">Cần gì cũng có hàng chục ngành hàng & hàng trăm ngàn sản phẩm</p>
+                </div>
+            </div>
+    
+            <div class="content-container footer-main">
+                <div class="footer-1st-col">
+                    <img class="footer-logo" src="./assets/image/footer/footer-logo.svg" alt="">
+                    <h6 class="footer-title"><b>Công Ty Cổ Phần CITA</b></h6>
+                    <p class="text-sm"><b>Email:</b> support@cita.com.vn</p>
+                    <p class="text-sm"><b>Điện thoại:</b> 012 345 5678</p>
+                    <p class="text-sm"><b>ĐKKD:</b> Sonatus Building, 15 Đ. Lê Thánh Tôn, Bến Nghé, Quận 1, Thành phố Hồ Chí Minh</p>
+                </div>
+                <div class="footer-2nd-col">
+                    <ul>
+                        <h6 class="font-semibold footer-title">Về CITA</h6>
+                        <li class="text-sm">Giới thiệu về CITA</li>
+                        <li class="text-sm">Giới thiệu về CITA</li>
+                        <li class="text-sm">Giới thiệu về CITA</li>
+                        <li class="text-sm">Giới thiệu về CITA</li>
+                    </ul>
+                    <ul>
+                        <h6 class="font-semibold footer-title">Hỗ trợ khách hàng</h6>
+                        <li class="text-sm">Giới thiệu về CITA</li>
+                        <li class="text-sm">Giới thiệu về CITA</li>
+                        <li class="text-sm">Giới thiệu về CITA</li>
+                        <li class="text-sm">Giới thiệu về CITA</li>
+                    </ul>
+                </div>
+                <div class="footer-3rd-col">
+                    <p class="font-semibold footer-title">Đối tác</p>
+                    <div class="flex footer-partner">
+                        <img src="./assets/image/footer/giaohangnhanh.svg" alt="">
+                        <img src="./assets/image/footer/vietnampost.svg" alt="">
+                        <img src="./assets/image/footer/grab.svg" alt="">
+                    </div>
+                    <img class="footer-bocongthuong" src="./assets/image/footer/bocongthuong.svg" alt="">
+                </div>
+                <div class="footer-4th-col">
+                    <div>
+                        <p class="font-semibold footer-title">Tải ứng dụng</p>
+                        <div class="footer-download">
+                            <a href=""><img src="./assets/image/footer/appstore-download.svg" alt=""></a>
+                            <a href=""><img src="./assets/image/footer/googleplay-dowload.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="font-semibold footer-title">Kết nối với CITA</p>
+                        <div class="flex footer-social">
+                            <img src="./assets/image/footer/facebook.svg" alt="">
+                            <img src="./assets/image/footer/youtube.svg" alt="">
+                            <img src="./assets/image/footer/linkedin.svg" alt="">
+                            <img src="./assets/image/footer/yalo.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright © 2020 cita.com.vn</p>
+            </div>
+        </footer>
     </body>
     <script>
         const button = document.querySelector('.more-less-btn');
