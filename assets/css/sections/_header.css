@@ -1,6 +1,5 @@
 .header-contact{
   background-color: var(--heading-color);
- 
 }
 
 .header-inner {
@@ -80,9 +79,8 @@ button[type="submit"] {
 
 /* reposi */
 @media (max-width: 992px) {
- 
- 
-  }
+
+}
 @media (max-width: 768px) {
 /* .header-menu:not(:last-child){
   display: none;
@@ -95,13 +93,13 @@ button[type="submit"] {
 }
 
 
-button[type="submit"] {
+/* button[type="submit"] {
   background-color: white;
   cursor: pointer;
   padding: 0 0 0 6px;
   color: gray;
   border-radius: 9999px;
-}
+} */
 
 }
 @media (max-width: 576px) {
