@@ -32,11 +32,11 @@
 }
 
 /* text +font */
-/* .text-semibold {
+.sm-semibold {
   font-size: 0.875rem; 
   font-weight: 600;
   line-height: 128.571%;
-} */
+}
 
 /* text color */
 .text-white {

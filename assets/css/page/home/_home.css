@@ -9,8 +9,9 @@
 .lu-dashboard {
     border-radius: 12px;
     background-color: var(--bg-color) ;
-   
-    width: 20%;
+   width: 205px;
+   height: 436px;
+    /* width: 20%; */
     /* display: none; */
 }
 .lu-dashboard-inner ,.lu-dashboard h6{
@@ -26,4 +27,39 @@
 }
 .lu-wrapper-body {
     width: 80%;
+}
+
+/* option */
+.lu-option {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.lu-option-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 9px;
+    margin-bottom: 18px;
+    /* margin: 24px 0; */
+
+}
+.lu-option {
+    margin: 1rem 0;
+    padding: 24px 20px;
+}
+.lu-option-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.lu-option-inner img {
+    padding: 0 25px;
+}
+.brand-img {
+    width: 346px;
+    
 }
