@@ -1,8 +1,12 @@
-.header-wrapper , .header-inner {
+.header-wrapper , .header-inner{
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: var(--white);
+}
+.lu-option {
+  background-color: var(--white);
+  border-radius: var(--rounded);
 }
 .flex {
   display: flex;
@@ -23,4 +27,28 @@
 
 .w-full {
   width: 100%;
+}
+.w-80 {
+  width: 80%;
+}
+
+.w-70 {
+  width: 70%;
+}
+.w-60 {
+  width: 60%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.flex-column {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }

@@ -1,12 +1,12 @@
-.content-container {
-  padding: 0 14.286%;
-}
-.section-container {
-  border-radius: var(--rounded);
-  background-color: var(--bg-color);
-  padding: 24px 20px;
-}
 
+.container {
+  max-width:1400px;
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+.container-fluid {
+  margin: 0 auto;
+  padding: 0 var(--container-padding);}
 
 @media (max-width: 1024px) {
   .content-container {
@@ -17,4 +17,12 @@
   .content-container {
     padding: 0 2%;
   }
+}
+.content-container {
+  padding: 0 14.286%;
+}
+.section-container {
+  border-radius: var(--rounded);
+  background-color: var(--bg-color);
+  padding: 24px 20px;
 }
