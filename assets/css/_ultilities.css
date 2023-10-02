@@ -20,7 +20,9 @@
 .gap-12 {
   gap: var(--gap-12);
 }
-
+.flex-wrap {
+  flex-wrap: wrap;
+}
 .w-full {
   width: 100%;
 }
