@@ -1,7 +1,7 @@
 /* text */
+
 .text-xs {
   font-size: 0.75rem; 
-  line-height: calc(30 / 12);
 }
 .text-sm {
   font-size: 0.875rem; 

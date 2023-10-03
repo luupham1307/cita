@@ -19,6 +19,9 @@
     height: 32px;
 }
 
-.svg , svg {
+.svg  {
     width: 20px;
     /* height: 20px; */}
+    .header-inner svg ,.lu-dashboard-title svg {
+        width: 20px;
+    }

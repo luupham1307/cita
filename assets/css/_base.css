@@ -22,7 +22,7 @@ body {
 
 main {
   position: relative;
-  padding-bottom: 10rem;
+  padding-bottom: 1.75rem;
 }
 
 
@@ -52,6 +52,8 @@ button {
   border: 0;
   color: inherit;
 }
+
+
 
 
 

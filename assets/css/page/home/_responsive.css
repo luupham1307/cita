@@ -1,0 +1,93 @@
+@media (max-width: 1110px) {
+    .lu-option-wrapper {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+    }
+}
+
+@media (max-width: 1024px) {
+    .option-test {
+        font-size: 14px;
+    }
+    .lu-dashboard {
+      display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .lu-option-wrapper {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+@media (min-width: 768px) {
+    .lu-option {
+        border-radius: var(--rounded);
+        background-color: var(--bg-color);
+        padding: 24px 20px;
+    }
+    .section-container {
+        border-radius: var(--rounded);
+        background-color: var(--bg-color);
+        padding: 24px 20px;
+
+}
+}
+@media (max-width: 768px) {
+    body {
+        background: linear-gradient(180deg, #FD7016 0.34%, #F6F6F7 14.91%) !important ;
+      }
+      .recomendation-button-group {
+        margin-top: 34px !important;
+    }
+      
+      .lu-option {
+        margin: 1rem 0px;
+        padding:0;
+    }
+      .lu-option h4 {
+        display: none;
+      }
+    .option-test {
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 400;
+    }
+    .lu-option-wrapper {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    /* thuong hieu */
+    .brand-img , .brand-wrapper .hidden {
+        display: none;
+    }
+    .product-recomendation-container {
+        margin-bottom: 64px;
+    }
+    }
+@media (max-width: 576px) {
+    .lu-option-wrapper {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .option-test {
+        font-size: 10px;
+        font-weight: 400;
+    }
+   
+}
+@media (max-width: 500px) {
+    .lu-option-wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 400px) {
+    .lu-option-wrapper {
+        display: grid;
+        gap: 6px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    html {
+        font-size: 80%;
+    }
+}

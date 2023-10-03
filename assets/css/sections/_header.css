@@ -7,7 +7,6 @@
   gap: 4px;
 }
 .header-content{
-  background-color: var(--primary-color) ;
   color: var(--white);
 
 }
@@ -29,7 +28,7 @@ align-items: center;
 }
 
 .header-content-search {
-  margin: 0 14px;
+  margin: 0 5%;
   flex-grow: 1;
   padding: 4px;
   border-radius: 12px;
@@ -63,7 +62,7 @@ button[type="submit"] {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* gap: 6px; */
+  gap: 6px;
   /* padding: 0 12px; */
 } 
 .header-menu {
@@ -71,42 +70,72 @@ button[type="submit"] {
   gap: 6px;
 }
 .header-logoC {
-  width: 20px;
+  width: 28px;
 }
-.menu-hidden, .header-logoC, .header-bell {
+.menu-hidden, .header-logoC, .header-bell,.icon-hidden {
   display: none;
 }
+
 
 /* reposi */
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
 
+  .menu-hidden {
+    display: flex;
+  }
+  
 }
+  @media (min-width: 768px) {
+    .header-content{
+      background-color: var(--primary-color) ;
+      color: var(--white);
+    
+    }
+  }
 @media (max-width: 768px) {
-/* .header-menu:not(:last-child){
-  display: none;
-} */
-.header-inner:last-child , .header-cart,.header-logo {
+  .search-input-container button {
+    padding: 10px 16px;
+   }
+.header-inner:last-child  {
   display: none;
 }
-.menu-hidden, .header-logoC,.header-bell {
+}
+@media (max-width: 586px) {
+  .header-inner:not(:first-child) ,.header-logo ,.header-cart {
+    display: none;
+  }
+  .header-logoC {
+    display: flex;
+  }
+  .header-bell {
   display: flex;
 }
 
-
-/* button[type="submit"] {
+button[type="submit"] {
   background-color: white;
+  border: none;
+  padding: 0;
+  border-radius: 8px;
   cursor: pointer;
-  padding: 0 0 0 6px;
-  color: gray;
-  border-radius: 9999px;
-} */
-
 }
-@media (max-width: 576px) {
-  .header-inner:not(:first-child) {
-    display: none;
-  }
-  
-  
+.search-btn i {
+  color: black;
+}
+.icon-white {
+  display: none;
+}
+.icon-hidden {
+  display: block;
+}
+.search-input-container {
+  flex-grow: 1;
+  display: flex;
+  height: auto;
+  position: relative;
+  margin: 0 5%;
+}
+ .search-input-container input , .search-input-container button {
+  padding: 5px 12px;
+ }
 
 }

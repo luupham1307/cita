@@ -4,6 +4,7 @@
 }
 .lu-main-container {
     display: flex;
+    justify-content: space-between;
     gap: 1rem;
 }
 .lu-dashboard {
@@ -26,6 +27,7 @@
     font-size: 0.875rem; 
 }
 .lu-wrapper-body {
+flex-grow: 1;
     width: 80%;
 }
 
@@ -36,14 +38,12 @@
     gap: 24px;
 }
 .lu-option-wrapper {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
     gap: 9px;
     margin-bottom: 18px;
-    /* margin: 24px 0; */
-
 }
 .lu-option {
     margin: 1rem 0;
@@ -60,6 +60,32 @@
     padding: 0 25px;
 }
 .brand-img {
-    width: 346px;
-    
+    width: 346px; 
 }
+/* gợi ý hôm nay */
+.section-inner {
+    border-radius: var(--rounded);
+    background-color: var(--bg-color);
+    padding: 10px;
+  }
+  .product-card-box {
+    display: flex;
+    flex-direction: column;
+    /* min-width: 188px; */
+}
+.product-card-box .product-card-img{
+    
+    height: 168px;
+    display: block; 
+  object-fit: cover;
+}
+.product-card-box h5 {
+    color: var(--primary-color);
+}
+.option-test {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px
+}
+
+
