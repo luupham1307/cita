@@ -27,3 +27,7 @@
 /* home */
 @import url("page/home/_home.css");
 @import url("page/product-detail/_pd_detail.css");
+@import url("page/cart/_cart-s1.css");
+@import url("page/cart/_cart-s2.css");
+@import url("page/login/_login.css");
+
