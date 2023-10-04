@@ -91,6 +91,7 @@ button[type="submit"] {
       color: var(--white);
     
     }
+   
   }
 @media (max-width: 768px) {
   .search-input-container button {
@@ -100,7 +101,7 @@ button[type="submit"] {
   display: none;
 }
 }
-@media (max-width: 586px) {
+@media (max-width: 595px) {
   .header-inner:not(:first-child) ,.header-logo ,.header-cart {
     display: none;
   }

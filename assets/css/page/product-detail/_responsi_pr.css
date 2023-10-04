@@ -1,0 +1,207 @@
+
+@media (min-width: 75rem) {
+    .idee-lu .container {
+        padding: 0;
+    }
+}
+@media (max-width: 1160px) {
+    .buy-btn-group {
+        flex-wrap: wrap;
+    }
+    .add-to-cart-btn,.buy-now-btn {
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    
+    .product-detail-categories.lu-prducts-text-box , .product-quantity.lu-prducts-text-box{
+        display: flex;
+        align-items: center;
+    }
+    .product-detail-img  {
+        margin-right: 40px;
+    }
+   
+    
+    
+}
+@media (max-width: 992px) {
+    .product-recomendation {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+    .product-detail {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        position: relative;
+    }
+    .product-detail {
+        /* gap: 10px; */
+    }
+    .add-to-cart-btn img {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .product-recomendation {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+   
+     .product-detail {
+        grid-template-columns: 100%;
+    }
+    
+    .lu-products ,.product-sub-img , .product-detail-like-share {
+        display: none;
+    }
+    .product-detail-text-mb {
+        justify-content: space-between;
+    }
+    .product-detail-text {
+        padding-top: 24px;
+        gap:26px;display: flex;
+        flex-direction: column;
+    }
+    .lu-prducts-text-box:first-child {
+        gap: 12px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .product-detail-price {
+        background-color: var(--body-color);
+        border-radius: 8px;
+        display: flex;
+        padding: 12px 10px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        align-self: stretch;
+        margin:  0;
+}
+
+.product-detail-categories {
+    gap: 8px;
+}
+.product-quantity {
+    margin-top: 0; 
+    padding-bottom: 0;
+}
+.product-quantity {
+    margin-bottom: 30px;
+}
+
+
+.product-describe img {
+    height: auto;
+    object-fit: contain;
+}
+.product-rating {
+    margin-top: 42px;
+    
+}
+.lu-huuich p ,.lu-pr-bg{
+    display: none;
+}
+.product-rating-text button {
+    color: #E06153;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 0;
+}
+.product-rating-img img{
+    width: 84px;
+    height: 84px;
+    border-radius: 8px;
+}
+.lu-product-detail-i {
+    position: absolute;
+    display: flex;
+    z-index: 5;
+    justify-content: space-between;
+    align-items: center;
+    top: 2%;
+    left: 0;
+    right: 0;
+}
+.product-detail {
+    grid-template-columns: 100%;
+    background: white;
+}
+.lu-bg-white  {
+    background-color: white;
+  }
+
+}
+@media (min-width:768px) {
+    .lu-product-detail-i, .lu-products-share ,.lu-product-number {
+        display: none;
+    }
+    .btn-mobile {
+        display: none;
+    }
+}
+@media (max-width:576px) {
+    .lu-evaluate-wrapper p {
+        text-align: center;
+        color: var(--grey-600-second, #5A5955);
+       font-feature-settings: 'clig' off, 'liga' off;
+       font-size: 12px;
+       font-weight: 600;
+       line-height: 1rem; /* 133.333% */
+       }
+    .product-rating-detail {
+        gap: 15px;
+    }
+    .lu-evaluate {
+        /* gap: 0; */
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+    .lu-evaluate-inner {
+        justify-content: center;
+ 
+ }
+    .product-recomendation {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .product-card-box .product-card-img {
+        height: 100%;
+        
+}
+.lu-evaluate h2{
+line-height: 16px;
+padding: 12px;}
+    .lu-products-content{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .product-rating-header {
+        margin:  0;
+    }
+    .lu-evaluate-wrapper p {
+        padding-top: 8px;
+    }
+    .lu-evaluate {
+        gap: 0;
+        
+    }
+}
+@media (max-width: 440px) {
+.product-rating-detail {
+        gap: 5px;
+    } 
+    .lu-evaluate-wrapper p {
+        padding-top: 2px;
+    }
+    .product-rating-detail {
+        gap: 15px;
+        
+    }
+   
+}
+@media (max-width: 400px) {
+.product-quantity-btn p {
+    padding-top: 3px;}}

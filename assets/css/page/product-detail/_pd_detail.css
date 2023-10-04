@@ -1,9 +1,31 @@
+/* body {
+    background: var(--grey-50, #F6F6F7);
+} */
+
+.flex.gap-12.buy-btn-group {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 12px 16px;
+    background: white;
+    border-top: 1px solid var(--light-theme-grayscale-gray-24, rgba(234, 235, 237, 0.80));
+    
+
+  
+}
 .product-detail {
     display: grid;
     grid-template-columns: 40% 60%;
+    position: relative;
 }
-.product-detail-img, .product-detail-text {
-    padding: 24px 20px;
+
+
+.product-detail-img,.viewed-products {
+    border-radius: 0;
+    /* position: relative; */
 }
 .product-main-img {
     width: 100%;
@@ -23,14 +45,16 @@
 .product-detail-like-share div {
     gap: 12px;
 }
-.product-detail-like-share img {
-    width: 32px;
-    height: 32px;
+.product-detail-like-share img  {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.lu-products-share {
+    /* gap: 8px; */
 }
 .product-detail-like-share span {
     margin: 0 24px;
 }
-
 .product-detail-price {
     background-color: var(--body-color);
     border-radius: 8px;
@@ -115,16 +139,18 @@
 .product-information {
     flex-direction: column;
     gap: 24px;
-    max-width: 877px;
+    /* max-width: 877px; */
 }
 .product-detailed-information {
     border-radius: 12px;
     background-color: var(--body-color);
     padding: 12px 20px;
+    /* height: 300px; */
+    overflow: hidden;
 }
 .product-detailed-row:not(.product-detailed-row:last-child) {
     border-bottom: 1px solid #E2E2E1;
-    gap: 10px;
+   
     min-height: 44px;
 }
 .product-information h4,.product-information h5 {
@@ -176,13 +202,18 @@
 }
 .product-rating-header {
     background-color: var(--body-color);
-    margin: 24px 0;
+    /* margin: 24px 0; */
     display: flex;
     flex-direction: column;
     gap: 24px;
+    border-radius: 8px;
+    padding: 24px 20px;
+
 }
 .product-rating-detail {
     gap: 20px;
+    /* align-items: flex-start; */
+    
 }
 .product-rating-detail h2 {
     font-size: 34px;
@@ -215,6 +246,7 @@
 .product-rating-text {
     flex-grow: 1;
     justify-content: space-between;
+    align-items: flex-start;
 }
 .product-rating-text button{
     color: #E06153;
@@ -226,6 +258,7 @@
     border: 1px solid #E06153;
     background-color: var(--bg-color);
 }
+
 .product-rating-img img{
     width: 138px;
     height: 138px;
@@ -239,8 +272,8 @@
     text-align: center;
 }
 .product-recomendation-container h4 {
-    margin-top: 24px;
-    margin-bottom: 10px;
+    /* margin-top: 24px; */
+    margin-bottom: 16px;
 }
 .product-recomendation {
     display: grid;
@@ -251,35 +284,55 @@
     justify-content: center;
     margin-top: 64px;
 }
+.product-detail-img-wrapper {
+    position: relative;
 
-@media (max-width: 1160px) {
-    .buy-btn-group {
-        flex-wrap: wrap;
-    }
-    .add-to-cart-btn,.buy-now-btn {
-        width: 100%;
-    }
 }
-@media (max-width: 992px) {
-    .product-detail {
-        grid-template-columns: 100%;
-    }
-    .product-recomendation {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-    }
+
+.lu-product-number {
+    position: absolute;
+        width: 40px; 
+        height: 20px; 
+        border-radius: 24px; 
+        background: rgba(11, 10, 10, 0.30);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px 12px;
+        margin: 14px 16px;
+        color: white;
+        right: 0;
+        bottom: 2%;
+   }
+   .lu-products-content{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 10px;
 }
-@media (max-width: 768px) {
-    
-    .product-recomendation {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
+
+
+
+.product-listing-lu {
+    margin-bottom: 0;
 }
-@media (max-width: 576px) {
-    
-    .product-recomendation {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-    .product-card-box .product-card-img {
-        height: 100%;
-        
-}}
+.lu-product-quantity {
+    gap: 12px;
+   
+}
+.lu-pr-bg {
+    margin-bottom: 16px;
+}
+.lu-evaluate-wrapper p {
+    color: var(--grey-600-second, #5A5955);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+section.lu-bg-white.product-reviews {
+    padding-bottom: 16px;
+}
+
+

@@ -51,3 +51,16 @@
   align-items: center;
   flex-direction: column;
 }
+
+
+.product-listing-header ,.product-details-mg,.product-reviews,.idee-lu  {
+  padding-top: 16px;
+}
+.product-card-list {
+  padding-bottom: 16px;
+}
+
+/* .container.section-container.product-information.flex {
+  padding-top: 16px;
+  padding-bottom: 16px;
+} */

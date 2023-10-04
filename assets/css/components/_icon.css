@@ -25,3 +25,17 @@
     .header-inner svg ,.lu-dashboard-title svg {
         width: 20px;
     }
+   
+    .lu-products-svg {
+        width: 40px; 
+        height: 40px; 
+        border-radius: 50%; 
+        background: rgba(11, 10, 10, 0.30);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   .lu-products-svg i {
+    color: white;
+   }
+   

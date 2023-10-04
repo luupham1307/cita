@@ -7,7 +7,7 @@
 /* Product Listing Title*/
 .product-listing {
     margin-top: 16px;
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
     flex-direction: column;
     gap: 24px;
     align-items: flex-start;

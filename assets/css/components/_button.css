@@ -14,3 +14,18 @@
     background-color: var(--white);
     stroke: var(--bg-color);
 }
+.lu-more-less-btn {
+    width: 224px;
+    height: 46px;
+    padding: 14px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+.lu-more-less-btn:hover {
+    color: var(--bg-color);
+    background-color: var(--primary-color);
+    stroke: var(--bg-color);
+}

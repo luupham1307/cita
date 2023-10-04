@@ -33,11 +33,14 @@
 }
 }
 @media (max-width: 768px) {
-    body {
+    .lu-bg {
         background: linear-gradient(180deg, #FD7016 0.34%, #F6F6F7 14.91%) !important ;
       }
       .recomendation-button-group {
         margin-top: 34px !important;
+    }
+    .lu-main {
+        margin-top: 0;
     }
       
       .lu-option {
