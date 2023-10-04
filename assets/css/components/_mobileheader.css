@@ -1,0 +1,22 @@
+.mobile-header {
+    position: relative;
+    width: 100%;
+    height: 56px;
+    background-color: var(--bg-color);
+    margin-bottom: 16px;
+
+}
+.go-back-btn {
+    position: absolute;
+    left: 6.399%;
+    top: 16px;
+}
+.mobile-header-title {
+    text-align: center;
+}
+
+@media (min-width: 769px) {
+    .mobile-header {
+        display: none;
+    }
+}

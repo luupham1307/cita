@@ -69,3 +69,8 @@
 .login-register a{
     color: var(--primary-color);
 }
+@media (max-width: 768px) {
+    .login-header,.login-img {
+        display: none;
+    }
+}
