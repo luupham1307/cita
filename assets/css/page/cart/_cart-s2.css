@@ -2,12 +2,7 @@
     flex-grow: 1;
     width: 50%;
 }
-.product-cart-container {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+
 .delivery-method-container,.payment-method-container {
     flex-direction: column;
     gap: 24px;
@@ -43,8 +38,9 @@
     overflow: hidden;
 }
 .product-cart-grid {
-    display: grid;
-    grid-template-columns: 2% 34% 15% 15% 15% 9%;
+    /* display: grid;
+    grid-template-columns: 2% 34% 15% 15% 15% 9%; */
+    display: flex;
     grid-column-gap: 20px;
     place-items: center;
     justify-items: baseline;

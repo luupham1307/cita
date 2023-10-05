@@ -29,3 +29,37 @@
     background-color: var(--primary-color);
     stroke: var(--bg-color);
 }
+
+/* check box */
+
+.custom-checkbox input[type="checkbox"] {
+    display: none; /* Ẩn checkbox mặc định */
+}
+
+.custom-checkbox label {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff; 
+    border: 1px solid #ccc; 
+    text-align: center; 
+    cursor: pointer;
+    border-radius: 4px;
+    padding-top: 1px;
+    
+}
+
+.custom-checkbox i {
+    display: none; /* Ẩn biểu tượng check mặc định */
+}
+
+.custom-checkbox input[type="checkbox"]:checked + label {
+    border: 1px solid #FD7016; 
+    background: var(--primary-500, #FD7016);
+}
+
+.custom-checkbox input[type="checkbox"]:checked + label i {
+    display: block; 
+    color: #fff; 
+}
+

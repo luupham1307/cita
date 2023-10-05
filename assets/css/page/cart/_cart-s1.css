@@ -1,10 +1,102 @@
 .cart-step1-container {
+}
+/* ll */
+.lu-cart-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.625rem;
+}
+
+.lu-cart1-dashboad {
+    /* width: 20%; */
+    width: 313px;
+}
+
+.lu-cart1-table {
+    border-collapse: collapse;
+    width: 100%;
 
 }
+th .text-grey {
+color: var(--grey-500, #706F6A);
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 14px;
+font-weight: 600;
+line-height: 18px;
+}
+.lu-cart1-table th, .lu-cart1-table td {
+padding: 24px 10px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
+.lu-cart1-table th:first-child, .lu-cart1-table td:first-child {
+    padding-left: 0;
+}
+.lu-cart1-table td:last-child  ,.lu-cart1-table th:last-child
+{padding-right: 0;
+}
+.lu-cart1-table th:nth-child(2)  {
+    text-align: left;
+}
+.lu-hidden-cart-svg {
+    display: none;
+}
+.lu-hidden-cart, .lu-hidden-cart1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lu-hidden-cart {
+    margin-top: 10px;
+
+}
+.lu-hidden-cart h6 {
+    color: #FD7016;
+}
+
+.lu-cart1-tbody tr {
+    border-top: 1px solid #ccc;
+    margin-bottom: 24px;
+}
+.lu-cart1-table th:last-child {
+    display: flex;
+    justify-content: end;
+}
+.lu-cart1-inner {
+    display: flex;
+    align-items: center;
+}
+p.product-cart-tag.text-xs {
+    color: var(--primary-500, #FD7016);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Paragraph/Caption */
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.333% */
+}
+
+.product-cart-name-lu {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    /* height: 2.6em; */
+    font-weight: 400;
+}
+
+
 .product-cart-container {
     display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.625rem;
+}
+.like-delete-btn {
+    display: flex;
+    gap: 8px;
 }
 .product-cart {
     flex-direction: column;
@@ -30,10 +122,10 @@
 .product-cart-name p:last-child{
     overflow: hidden;
 }
-.product-cart-grid {
+.product-cart-grid , .product-cart-grid.w-full {
     display: grid;
     grid-template-columns: 2% 34% 15% 15% 15% 9%;
-    grid-column-gap: 20px;
+    grid-column-gap: 1.25rem;
     place-items: center;
     justify-items: baseline;
 }
