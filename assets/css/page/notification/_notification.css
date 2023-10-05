@@ -1,0 +1,35 @@
+.noti-row {
+    margin: 24px 0;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.notification-pagination-btn {
+    justify-content: center;
+    margin-top: 24px;
+}
+.noti-pagination-active-btn {
+    border-radius: 40px;
+    border: 2px solid var(--grey-100, #E2E2E1);
+    padding: 8px;
+}
+.noti-text {
+    flex-grow: 1;
+}
+.noti-icon {
+    padding: 12px;
+    border-radius: 100px;
+    background-color: var(--footer-color);
+    width: 56px;
+    height: 56px;
+    justify-content: center;
+}
+.xem-them-btn {
+    padding: 14px 24px;
+    border-radius: 12px;
+    border: 1px solid  #E2E2E1;
+}
+@media (max-width: 768px) {
+    .notification-pagination-btn,.xem-them-btn,.main-content-wrapper h5 {
+        display: none;
+    }
+}

@@ -1,0 +1,16 @@
+.mobile-sidebar-wrapper {
+    margin: 24px 0;
+}
+.account-name-container {
+    margin-bottom: 24px;
+}
+.account-name-container a {
+    color: var(--primary-color);
+}
+.sidebar-menu-container a {
+    justify-content: space-between;
+    color: #5A5955;
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 8px;
+}

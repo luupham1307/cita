@@ -32,3 +32,6 @@
 @import url("page/cart/_cart-s2.css");
 @import url("page/login/_login.css");
 @import url("page/signup/_signup.css");
+@import url("page/dashboard/_dashboard.css");
+@import url("page/dashboard/_account-home-mobille.css");
+@import url("page/notification/_notification.css");
