@@ -12,16 +12,17 @@
 }
 .icon-lg {
     width: 24px;
-    height: 20px;
+    height: 24px;
 }
 .icon-xl {
     width: 32px;
     height: 32px;
 }
 
-.svg  {
-    width: 20px;
-    /* height: 20px; */}
+ .svg  {
+    width: 20px; 
+    
+}
     .header-inner svg ,.lu-dashboard-title svg {
         width: 20px;
     }

@@ -110,7 +110,7 @@
     border: 1px solid  #E2E2E1;
     background-color: var(--bg-color);
     width: 40px;
-    height: 32px;
+    line-height: 32px;
     text-align: center;
 }
 .add-to-cart-btn {
