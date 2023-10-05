@@ -59,7 +59,7 @@
 }
 
 .product-bill-container-2 {
-    max-width: 331px;
+    width: 331px;
 }
 .bill-address {
     justify-content: space-between;
@@ -104,8 +104,8 @@
     margin-top: 24px;
 }
 @media (max-width: 789px) {
-    .product-bill-container-2 {
+    /* .product-bill-container-2 {
         max-width: none;
         flex-grow: 1;
-    }
+    } */
 }

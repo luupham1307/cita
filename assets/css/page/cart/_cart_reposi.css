@@ -65,4 +65,21 @@
     .cart1   {
         margin-top: 56px;
     }
+    /* cart2 */
+    .lu-cart2 {
+        display: block;
+    }
+    .product-cart-container2 {
+       flex-direction: column;
+       width: 100%;
+    }
+    .product-bill-method, .product-bill-container-2 {
+        width: 100%;
+    }
+    .product-bill-container-2 {
+        width: 100%;
+    }
+    .cart2-text {
+        flex-grow: 1;
+    }
 }
