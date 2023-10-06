@@ -7,12 +7,14 @@
     }
     
 }
+
 @media (min-width: 768px) {
     .lu-hidden-cart, .lu-cart-wrapper-mobile  {
         display: none;
     }
     
 }
+
 @media (max-width:768px) {
     .lu-btn-hidden {
         display: none;
@@ -44,7 +46,7 @@
     .lu-cart-wrapper-mobile-header {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        /* align-items: center; */
     }
     .lu-cart-wrapper-mobile-header:first-child {
         margin-bottom: 26px;

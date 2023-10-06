@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+    .lu-search-wrapper-nav , .lu-wrapper-heading  p, .lu-wrapper-heading .hidden  {
+        display: none;
+    }
+   
+    
+}
+@media (max-width: 768px) {
+    .lu-wrapper-heading  p,  .price-pc  {
+        display: none;
+    }
+    .lu-wrapper-body .product-recomendation-container {
+        margin-bottom: 0;
+    }
+    
+    
+}

@@ -1,4 +1,111 @@
 .checkbox-container {
     display: flex;
     gap: 8px;
+
+    align-items: center;
+}
+.lu-custom-checkbox label {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.lu-dashboard-text{
+    padding-left: 24px;
+}
+.dashboard-price {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.lu-search .lu-dashboard {
+    height: 100%;
+} 
+.btn-dashboad-search-box {
+   justify-content: space-between;
+}
+.btn-dashboad-search {
+width: 82px;
+height: 42px;
+padding: 12px;
+border-radius: 8px;
+border: 1px solid var(--grey-100, #E2E2E1);
+background: var(--grey-white, #FCFCFC);
+padding: 0;
+}
+.lu-search .lu-dashboard-inner {
+    padding: 8px 16px;
+}
+.btn-dashboad-search-btn {
+    width: auto;
+    height: 33px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+.lu-search .lu-dashboard-inner {
+    border-bottom: 1px solid #E2E2E1;
+    margin: 8px 16px;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+button.w-full.btn-dashboad-search-btn.flex.gap-8.font-semibold.more-less-btn-orange {
+    width: 100%;
+}
+.lu-wrapper-body button {
+    display: flex;
+    height: 36px;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+border: 1px solid var(--grey-100, #E2E2E1);
+}
+.lu-wrapper-heading {
+    margin-bottom: 16px;
+}
+.lu-wrapper-heading button {
+background: var(--grey-white, #FCFCFC);
+
+}
+.lu-wrapper-nav-search {
+    display: flex;
+width: 251px;
+height: 40px;
+padding: 0px 12px;
+justify-content: space-between;
+align-items: center;
+flex-shrink: 0;
+border-radius: 12px;
+border: 1px solid var(--grey-100, #E2E2E1);
+background: var(--grey-50, #F6F6F7);
+}
+.lu-wrapper-nav-search input[type="text"] {
+background: var(--grey-50, #F6F6F7);
+outline: none; 
+
+}
+input[type="text"] {
+outline: none; 
+
+}
+.lu-wrapper-nav {
+    justify-content: space-between;
+    margin-bottom: 16px;
+    padding: 8px 16px;
+}
+.lu-search-wrapper-nav {
+    background: var(--grey-white, #FCFCFC);
+
+}
+.lu-search input[type="text"] {
+    flex-grow: 1;
+    padding-right: 5px;
 }
