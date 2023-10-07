@@ -44,3 +44,8 @@
 
 @import url("page/login/_login.css");
 @import url("page/signup/_signup.css");
+/* support */
+@import url("page/support/support.css");
+@import url("page/support/support_reposi.css");
+
+

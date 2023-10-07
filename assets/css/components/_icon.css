@@ -1,26 +1,36 @@
 .icon-xs {
     width: 12px;
     height: 12px;
+    cursor: pointer;
+
 }
 .icon-sm {
     width: 16px;
     height: 16px;
+    cursor: pointer;
+
 }
 .icon-md {
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 .icon-lg {
     width: 24px;
     height: 24px;
+    cursor: pointer;
+
 }
 .icon-xl {
     width: 32px;
     height: 32px;
+    cursor: pointer;
+
 }
 
  .svg  {
     width: 20px; 
+    cursor: pointer;
     
 }
     .header-inner svg ,.lu-dashboard-title svg {
