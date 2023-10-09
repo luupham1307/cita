@@ -116,24 +116,17 @@
     justify-content: space-between;
     margin-bottom: 16px;
 }
-@media (max-width: 768px) {
-    .sidebar-wrapper,.order-search-container {
-        display: none;
-    }
-    .categories-container {
-        grid-auto-columns: 15% 30% 33% 32% 30% 18%;
-    }
-    .order-item-container {
-        display: none;
-    }
+
+/* order-detail */
+.order-detai-header h5 {
+    margin-bottom: 0;
 }
-@media (min-width: 769px) {
-    .mobile-order-detail {
-        display: none;
-    }
-}
-@media (max-width:442px) {
-    .categories-container {
-        grid-auto-columns: 20% 35% 38% 40% 30% 18%;
-    }
-}
+
+
+
+
+
+
+
+
+

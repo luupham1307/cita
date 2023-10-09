@@ -131,9 +131,22 @@
                     d="M13.7784 5.02267C13.5284 5.07267 13.2774 5.19868 13.1254 5.42868L9.13942 11.4287C8.91642 11.7647 8.91642 12.2177 9.13942 12.5537L13.1254 18.5537C13.4304 19.0127 14.0684 19.1417 14.5264 18.8347C14.9834 18.5287 15.1114 17.8877 14.8064 17.4287L11.1944 11.9907L14.8064 6.55368C15.1114 6.09368 14.9834 5.45367 14.5264 5.14767C14.2974 4.99367 14.0284 4.97167 13.7784 5.02267Z"
                     fill="#0B0A0A" />
             </svg>
-            <h6 class="mobile-header-title w-full">Thông tin ví</h6>
+            <h6 class="mobile-header-title w-full">Quản lý đơn hàng</h6>
+            <svg class="order-search-btn" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none">
+                <g clip-path="url(#clip0_296_22662)">
+                    <path
+                        d="M10.4159 2C5.76789 2 2 5.76822 2 10.4159C2 15.0636 5.76789 18.8318 10.4159 18.8318C12.3481 18.8318 14.1795 18.168 15.6 17.0739L20.1796 21.6921C20.5905 22.1024 21.281 22.1024 21.6919 21.6921C22.1027 21.2808 22.1027 20.5907 21.6919 20.1794L17.0805 15.5927C18.1754 14.1725 18.8318 12.3484 18.8318 10.4159C18.8318 5.76822 15.0639 2 10.4159 2ZM10.4159 4.10397C13.9018 4.10397 16.7278 6.92961 16.7278 10.4159C16.7278 13.9022 13.9018 16.7278 10.4159 16.7278C6.92992 16.7278 4.10397 13.9022 4.10397 10.4159C4.10397 6.92961 6.92992 4.10397 10.4159 4.10397Z"
+                        fill="#0B0A0A" />
+                </g>
+                <defs>
+                    <clipPath clipPath id="clip0_296_22662">
+                        <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg>
         </header>
-        <div class="container">
+        <div class="container order-detail">
             <!-- Breadcrumb -->
             <div class="breadcrumb">
                 <p>Trang chủ</p>
@@ -142,10 +155,10 @@
                         d="M8.47204 4.18483C8.26371 4.14233 8.03954 4.16066 7.84871 4.289C7.46787 4.54399 7.36121 5.07733 7.61537 5.46066L10.6254 9.99149L7.61537 14.5231C7.36121 14.9056 7.46787 15.4398 7.84871 15.6948C8.23037 15.9498 8.76204 15.8431 9.0162 15.4606L12.3379 10.4607C12.5237 10.1807 12.5237 9.80315 12.3379 9.52315L9.0162 4.52317C8.88954 4.3315 8.68037 4.2265 8.47204 4.18483Z"
                         fill="#5A5955" />
                 </svg>
-                <p class="font-semibold text-black">Thông tin tài khoản</p>
+                <p class="font-semibold text-black">Quán lý đơn hàng</p>
             </div>
 
-            <div class="dashboard-wrapper flex">
+            <div class="order-management-wrapper flex">
                 <!-- Sidebar -->
                 <div class="sidebar-wrapper">
                     <!-- Account name and avatar -->
@@ -160,13 +173,13 @@
                     <!-- Sidebar menu -->
                     <div class="sidebar-menu-wrapper">
                         <ul class="sidebar-menu-container text-sm font-semibold">
-                            <li class="flex active-item">
+                            <li class="flex">
                                 <div class="flex gap-12">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                         fill="none">
                                         <path
                                             d="M4.99805 2.92969C3.89305 2.92969 2.99805 3.82469 2.99805 4.92969V10.9297C2.99805 12.0347 3.89305 12.9297 4.99805 12.9297H7.99805C9.10305 12.9297 9.99805 12.0347 9.99805 10.9297V4.92969C9.99805 3.82469 9.10305 2.92969 7.99805 2.92969H4.99805ZM13.998 3.92969C12.893 3.92969 11.998 4.82469 11.998 5.92969V9.92969C11.998 11.0347 12.893 11.9297 13.998 11.9297H17.998C19.103 11.9297 19.998 11.0347 19.998 9.92969V5.92969C19.998 4.82469 19.103 3.92969 17.998 3.92969H13.998ZM4.99805 4.92969H7.99805V10.9297H4.99805V4.92969ZM13.998 5.92969H17.998V9.92969H13.998V5.92969ZM13.998 13.9297C12.893 13.9297 11.998 14.8247 11.998 15.9297V17.9297C11.998 19.0347 12.893 19.9297 13.998 19.9297H18.998C20.103 19.9297 20.998 19.0347 20.998 17.9297V15.9297C20.998 14.8247 20.103 13.9297 18.998 13.9297H13.998ZM5.65405 14.9297C4.73405 14.9297 3.99805 15.6657 3.99805 16.5857V19.2737C3.99805 20.1937 4.73405 20.9297 5.65405 20.9297H8.34204C9.26204 20.9297 9.99805 20.1937 9.99805 19.2737V16.5857C9.99805 15.6657 9.26204 14.9297 8.34204 14.9297H5.65405ZM13.998 15.9297H18.998V17.9297H13.998V15.9297ZM5.99805 16.9297H7.99805V18.9297H5.99805V16.9297Z"
-                                            fill="#FD7016" />
+                                            fill="#5A5955" />
                                     </svg>
                                     <p>Quản lý ví</p>
                                 </div>
@@ -182,13 +195,13 @@
                                     <p>Thông báo</p>
                                 </div>
                             </li>
-                            <li class="flex">
+                            <li class="flex active-item">
                                 <div class="flex gap-12">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                         fill="none">
                                         <path
                                             d="M9.99804 1.95312C8.34115 1.95312 6.99805 3.29612 6.99805 4.95312V5.95312H5.99805C4.34115 5.95312 2.99805 7.29612 2.99805 8.95312V18.9531C2.99805 20.6101 4.34115 21.9531 5.99805 21.9531H17.998C19.6763 21.9571 21.0192 20.5971 20.998 18.9531V7.95312V4.95312C20.998 3.29612 19.6548 1.95312 17.998 1.95312H9.99804ZM9.99804 3.95312H17.998C18.5502 3.95312 18.998 4.40112 18.998 4.95312V7.95312V18.9531C18.998 19.5051 18.5502 19.9531 17.998 19.9531C17.4457 19.9531 16.9979 19.5051 16.998 18.9531V11.9531V8.95312C16.998 7.29612 15.6548 5.95312 13.998 5.95312H8.99805V4.95312C8.99805 4.40112 9.44575 3.95312 9.99804 3.95312ZM5.99805 7.95312H13.998C14.5502 7.95312 14.998 8.40112 14.998 8.95312V11.9531V18.9531C14.998 19.3421 15.0319 19.6101 15.1667 19.9511L5.99805 19.9531C5.44575 19.9531 4.99795 19.5051 4.99805 18.9531V8.95312C4.99805 8.40112 5.44575 7.95312 5.99805 7.95312ZM6.99805 8.95312C6.44575 8.95312 5.99805 9.40112 5.99805 9.95312V11.9531C5.99795 12.5051 6.44575 12.9531 6.99805 12.9531H7.99805C8.55025 12.9531 8.99805 12.5051 8.99805 11.9531V9.95312C8.99805 9.40112 8.55025 8.95312 7.99805 8.95312H6.99805ZM10.998 10.9531C10.4457 10.9531 9.99795 11.4011 9.99804 11.9531C9.99804 12.5051 10.4457 12.9531 10.998 12.9531H12.998C13.5502 12.9531 13.998 12.5051 13.998 11.9531C13.998 11.4011 13.5502 10.9531 12.998 10.9531H10.998ZM6.99805 13.9531C6.44575 13.9531 5.99795 14.4011 5.99805 14.9531C5.99805 15.5051 6.44575 15.9531 6.99805 15.9531H12.998C13.5502 15.9531 13.998 15.5051 13.998 14.9531C13.998 14.4011 13.5502 13.9531 12.998 13.9531H6.99805ZM6.99805 16.9531C6.44575 16.9531 5.99795 17.4011 5.99805 17.9531C5.99805 18.5051 6.44575 18.9531 6.99805 18.9531H12.998C13.5502 18.9531 13.998 18.5051 13.998 17.9531C13.998 17.4011 13.5502 16.9531 12.998 16.9531H6.99805Z"
-                                            fill="#5A5955" />
+                                            fill="#FD7016" />
                                     </svg>
                                     <p>Quản lý đơn hàng</p>
                                 </div>
@@ -292,187 +305,240 @@
                     </div>
                 </div>
 
-                <!-- Thông tin ví và lịch sử giao dịch -->
-                <div class="main-content-wrapper">
-                    <h5>Thông tin ví</h5>
-                    <div class="wallet-infor-container">
-                        <div class="wallet-infor w-full section-container">
-                            <div class="flex gap-12">
-                                <img src="./assets/image/dashboard/tienmat.svg" alt="">
-                                <p>Tiền mặt</p>
-                            </div>
-                            <h3>1,000,000,đ</h3>
-                        </div>
-                        <div class="wallet-infor w-full section-container">
-                            <div class="flex gap-12">
-                                <img src="./assets/image/dashboard/vivoucher.svg" alt="">
-                                <p>Ví voucher</p>
-                            </div>
-                            <h3>1,000,000,đ</h3>
-                        </div>
-                    </div>
-                    <h5>Thu nhập</h5>
-                    <div class="wallet-infor-container">
-                        <div class="wallet-infor w-full section-container">
-                            <div class="flex gap-12">
-                                <img src="./assets/image/dashboard/homnay.svg" alt="">
-                                <p>Hôm nay</p>
-                            </div>
-                            <h3>1,000,000,đ</h3>
-                        </div>
-                        <div class="wallet-infor w-full section-container">
-                            <div class="flex gap-12">
-                                <img src="./assets/image/dashboard/dukien.svg" alt="">
-                                <p>Dự kiến</p>
-                            </div>
-                            <h3>1,000,000,đ</h3>
-                        </div>
-                    </div>
-                    <h5>Lịch sử giao dịch</h5>
-                    <div class="section-container w-full transaction-history-wrapper">
-                        <!-- Desktop transaction history -->
-                        <table class="text-sm w-full">
-                            <tr class="text-grey">
-                                <th>Mã giao dịch</th>
-                                <th>Số tiền</th>
-                                <th>Ví</th>
-                                <th>Thành viên</th>
-                                <th>Ghi chú</th>
-                                <th>Trạng thái</th>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p class="font-semibold transaction-code">R60343145</p>
-                                    <p class="text-xs text-semigrey">25-07-23 12:56</p>
-                                </td>
-                                <td>
-                                    <p>25,000,000,000đ</p>
-                                    <p class="text-xs text-grey">Hoa hồng giới thiệu</p>
-                                </td>
-                                <td>
-                                    <p>Ví voucher</p>
-                                </td>
-                                <td>
-                                    <p>phananh123</p>
-                                </td>
-                                <td>
-                                    <p class="transaction-note">Đẹp - Là một từ mà mọi người đều khát khao cả nam lẫn
-                                        nữ...</p>
-                                </td>
-                                <td>
-                                    <p class="text-xs font-semibold transaction-stage">Thành công</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p class="font-semibold transaction-code">R60343145</p>
-                                    <p class="text-xs text-semigrey">25-07-23 12:56</p>
-                                </td>
-                                <td>
-                                    <p>25,000,000,000đ</p>
-                                    <p class="text-xs text-grey">Hoa hồng giới thiệu</p>
-                                </td>
-                                <td>
-                                    <p>Ví voucher</p>
-                                </td>
-                                <td>
-                                    <p>phananh123</p>
-                                </td>
-                                <td>
-                                    <p class="transaction-note">Đẹp - Là một từ mà mọi người đều khát khao cả nam lẫn
-                                        nữ...</p>
-                                </td>
-                                <td>
-                                    <p class="text-xs font-semibold transaction-stage">Thành công</p>
-                                </td>
-                            </tr>
-                        </table>
-                        <div class="transaction-pagination-btn flex gap-8">
-                            <button class="flex">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none">
-                                    <path
-                                        d="M10.7072 17.7929C11.0977 18.1834 11.0977 18.8166 10.7072 19.2071C10.3167 19.5976 9.68351 19.5976 9.29299 19.2071L3.50009 13.4142C2.71905 12.6332 2.71904 11.3668 3.50009 10.5858L9.29299 4.79289C9.68351 4.40237 10.3167 4.40237 10.7072 4.79289C11.0977 5.18342 11.0977 5.81658 10.7072 6.20711L5.91431 11H20.0001C20.5524 11 21.0001 11.4477 21.0001 12C21.0001 12.5523 20.5524 13 20.0001 13H5.91431L10.7072 17.7929Z"
-                                        fill="#6F767E" />
-                                </svg>
-                            </button>
-                            <button class="flex pagination-active-btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none">
-                                    <path
-                                        d="M13.2929 17.7929C12.9024 18.1834 12.9024 18.8166 13.2929 19.2071C13.6834 19.5976 14.3166 19.5976 14.7071 19.2071L20.5 13.4142C21.281 12.6332 21.281 11.3668 20.5 10.5858L14.7071 4.79289C14.3166 4.40237 13.6834 4.40237 13.2929 4.79289C12.9024 5.18342 12.9024 5.81658 13.2929 6.20711L18.0858 11H4C3.44772 11 3 11.4477 3 12C3 12.5523 3.44772 13 4 13H18.0858L13.2929 17.7929Z"
-                                        fill="#111315" />
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-                    <!-- Mobile transaction history -->
-                    <div class="section-container w-full mobile-transaction-history text-sm">
-                        <div class="transaction-history-container">
-                            <div class="flex transaction-history-row">
-                                <div class="flex gap-8">
-                                    <p>Ví voucher</p>
-                                    <p class="font-semibold transaction-stage">Thành công</p>
-                                </div>
-                                <p>phananh123</p>
-                            </div>
-                            <div class="flex transaction-history-row">
-                                <p class="transaction-code font-semibold">R60343145</p>
-                                <p>25,000,000,000đ</p>
-                            </div>
-                            <div class="text-xs flex transaction-history-row">
-                                <p class="text-semigrey">25-07-23 12:56</p>
-                                <p class="text-grey">Hoa hồng giới thiệu</p>
-                            </div>
-                            <p class="transaction-history-row">Đẹp - Là một từ mà mọi người đều khát khao cả nam lẫn
-                                nữ...</p>
-                        </div>
-                        <div class="section-line"></div>
-                        <div class="transaction-history-container">
-                            <div class="flex transaction-history-row">
-                                <div class="flex gap-8">
-                                    <p>Ví voucher</p>
-                                    <p class="font-semibold transaction-stage">Thành công</p>
-                                </div>
-                                <p>phananh123</p>
-                            </div>
-                            <div class="flex transaction-history-row">
-                                <p class="transaction-code font-semibold">R60343145</p>
-                                <p>25,000,000,000đ</p>
-                            </div>
-                            <div class="text-xs flex transaction-history-row">
-                                <p class="text-semigrey">25-07-23 12:56</p>
-                                <p class="text-grey">Hoa hồng giới thiệu</p>
-                            </div>
-                            <p class="transaction-history-row">Đẹp - Là một từ mà mọi người đều khát khao cả nam lẫn
-                                nữ...</p>
-                        </div>
-                        <div class="section-line"></div>
-                        <div class="transaction-history-container">
-                            <div class="flex transaction-history-row">
-                                <div class="flex gap-8">
-                                    <p>Ví voucher</p>
-                                    <p class="font-semibold transaction-stage">Thành công</p>
-                                </div>
-                                <p>phananh123</p>
-                            </div>
-                            <div class="flex transaction-history-row">
-                                <p class="transaction-code font-semibold">R60343145</p>
-                                <p>25,000,000,000đ</p>
-                            </div>
-                            <div class="text-xs flex transaction-history-row">
-                                <p class="text-semigrey">25-07-23 12:56</p>
-                                <p class="text-grey">Hoa hồng giới thiệu</p>
-                            </div>
-                            <p class="transaction-history-row">Đẹp - Là một từ mà mọi người đều khát khao cả nam lẫn
-                                nữ...</p>
-                        </div>
+                <!-- Thông tin đơn hàng -->
+                <div class="main-content-wrapper ">
+                    <div class="order-detai-header">
+                        <h5>Chi tiết đơn hàng #COD37004980</h5>
+                        <span class="text-grey text-sm ">Ngày đặt hàng: 13:43 16/02/2017</span>
                     </div>
 
+                    <div class="section-container categories-wrapper w-full">
+                        <div class="categories-container">
+                            <a class="actived-category" href="">Tất cả</a>
+                            <a href="">Đơn hàng mới</a>
+                            <a href="">Chờ giao hàng</a>
+                            <a href="">Đang giao hàng</a>
+                            <a href="">Hoàn thành</a>
+                            <a href="">Đã hủy</a>
+                        </div>
+                    </div>
+                    <div class="order-search-container w-full flex">
+                        <input class="w-full" type="text" placeholder="Tìm theo mã đơn hàng, tên sản phẩm">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <g clip-path="url(#clip0_46_11666)">
+                                <path
+                                    d="M8.67998 1.66797C4.80666 1.66797 1.66675 4.80815 1.66675 8.68122C1.66675 12.5543 4.80666 15.6945 8.67998 15.6945C10.2901 15.6945 11.8163 15.1413 13 14.2296L16.8164 18.0781C17.1588 18.42 17.7342 18.42 18.0767 18.0781C18.419 17.7353 18.419 17.1602 18.0767 16.8175L14.2338 12.9952C15.1463 11.8117 15.6932 10.2916 15.6932 8.68122C15.6932 4.80815 12.5533 1.66797 8.67998 1.66797ZM8.67998 3.42128C11.585 3.42128 13.9399 5.77598 13.9399 8.68122C13.9399 11.5865 11.585 13.9412 8.67998 13.9412C5.77501 13.9412 3.42006 11.5865 3.42006 8.68122C3.42006 5.77598 5.77501 3.42128 8.67998 3.42128Z"
+                                    fill="#5A5955" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_46_11666">
+                                    <rect width="20" height="20" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="section-container flex-col gap-24 order-item-container">
+                        <div class="order-header-container text-sm">
+                            <div class="flex-col gap-8">
+                                <p>Mã đơn hàng</p>
+                                <div class="flex gap-8 flex-grow">
+                                    <p class="text-semigrey">COD37004980</p>
+                                    <p>|</p>
+                                    <p class="text-orange flex gap-4">
+                                        Chi tiết
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 16 16" fill="none">
+                                            <path
+                                                d="M11.3272 13.9922C12.7999 13.9922 13.9939 12.7982 13.9939 11.3255V4.65885C13.9939 3.18619 12.7999 1.99219 11.3272 1.99219H4.66056C3.1879 1.99219 1.9939 3.18619 1.9939 4.65885V7.32552C1.9939 7.69352 2.29256 7.99219 2.66056 7.99219C3.02856 7.99219 3.32723 7.69352 3.32723 7.32552V4.65885C3.32723 3.92219 3.9239 3.32552 4.66056 3.32552H11.3272C12.0639 3.32552 12.6606 3.92219 12.6606 4.65885V11.3255C12.6606 12.0622 12.0639 12.6589 11.3272 12.6589H8.66056C8.29256 12.6589 7.9939 12.9575 7.9939 13.3255C7.9939 13.6935 8.29256 13.9922 8.66056 13.9922H11.3272ZM3.32723 13.3255C3.4979 13.3255 3.67589 13.2682 3.80656 13.1382L8.80656 8.13818L10.6606 9.99219V5.32552H5.9939L7.8479 7.17952L2.8479 12.1795C2.5879 12.4402 2.5879 12.8775 2.8479 13.1382C2.97857 13.2682 3.15656 13.3255 3.32723 13.3255Z"
+                                                fill="#FD7016" />
+                                        </svg>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex-col gap-8">
+                                <p>Ngày đặt</p>
+                                <p class="text-semigrey flex-grow flex">13:43 16/02/2017</p>
+                            </div>
+                            <div class="flex-col gap-8">
+                                <p>Thanh toán</p>
+                                <p class="text-semigrey flex-grow flex">Thanh toán khi nhận hàng</p>
+                            </div>
+                            <div class="flex-col gap-4">
+                                <p>Trạng thái</p>
+                                <p class="text-xs font-semibold order-stage flex-grow">Thành công</p>
+                            </div>
+                        </div>
+                        <div class="section-line"></div>
+                        <div class="order-item-detail">
+                            <div class="flex gap-4 order-img-name">
+                                <img src="./assets/image/cart/Rectangle 14.png" alt="">
+                                <div>
+                                    <p>Bóp nam / Ví nam WAN da bò dập vân cá sấu kiểu dáng ngang cao cấp ...</p>
+                                    <p class="text-semigrey">X1</p>
+                                </div>
+                            </div>
+                            <h6>123.000đ</h6>
+                            <h6 class="text-orange">123.000đ</h6>
+                        </div>
+                        <div class="section-line"></div>
+                        <div class="order-item-detail">
+                            <div class="flex gap-4 order-img-name">
+                                <img src="./assets/image/cart/Rectangle 14.png" alt="">
+                                <div>
+                                    <p>Bóp nam / Ví nam WAN da bò dập vân cá sấu kiểu dáng ngang cao cấp ...</p>
+                                    <p class="text-semigrey">X1</p>
+                                </div>
+                            </div>
+                            <h6>123.000đ</h6>
+                            <h6 class="text-orange">123.000đ</h6>
+                        </div>
+                        <div class="section-line"></div>
+                        <div class="flex gap-24 order-total-price">
+                            <p>Tổng tiền</p>
+                            <h4 class="text-orange">123.000đ</h4>
+                        </div>
+                    </div>
+                    <div class="section-container flex-col gap-24 order-item-container">
+                        <div class="order-header-container text-sm">
+                            <div class="flex-col gap-8">
+                                <p>Mã đơn hàng</p>
+                                <div class="flex gap-8 flex-grow">
+                                    <p class="text-semigrey">COD37004980</p>
+                                    <p>|</p>
+                                    <p class="text-orange flex gap-4">
+                                        Chi tiết
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 16 16" fill="none">
+                                            <path
+                                                d="M11.3272 13.9922C12.7999 13.9922 13.9939 12.7982 13.9939 11.3255V4.65885C13.9939 3.18619 12.7999 1.99219 11.3272 1.99219H4.66056C3.1879 1.99219 1.9939 3.18619 1.9939 4.65885V7.32552C1.9939 7.69352 2.29256 7.99219 2.66056 7.99219C3.02856 7.99219 3.32723 7.69352 3.32723 7.32552V4.65885C3.32723 3.92219 3.9239 3.32552 4.66056 3.32552H11.3272C12.0639 3.32552 12.6606 3.92219 12.6606 4.65885V11.3255C12.6606 12.0622 12.0639 12.6589 11.3272 12.6589H8.66056C8.29256 12.6589 7.9939 12.9575 7.9939 13.3255C7.9939 13.6935 8.29256 13.9922 8.66056 13.9922H11.3272ZM3.32723 13.3255C3.4979 13.3255 3.67589 13.2682 3.80656 13.1382L8.80656 8.13818L10.6606 9.99219V5.32552H5.9939L7.8479 7.17952L2.8479 12.1795C2.5879 12.4402 2.5879 12.8775 2.8479 13.1382C2.97857 13.2682 3.15656 13.3255 3.32723 13.3255Z"
+                                                fill="#FD7016" />
+                                        </svg>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex-col gap-8">
+                                <p>Ngày đặt</p>
+                                <p class="text-semigrey flex-grow flex">13:43 16/02/2017</p>
+                            </div>
+                            <div class="flex-col gap-8">
+                                <p>Thanh toán</p>
+                                <p class="text-semigrey flex-grow flex">Thanh toán khi nhận hàng</p>
+                            </div>
+                            <div class="flex-col gap-4">
+                                <p>Trạng thái</p>
+                                <p class="text-xs font-semibold order-stage flex-grow">Thành công</p>
+                            </div>
+                        </div>
+                        <div class="section-line"></div>
+                        <div class="order-item-detail">
+                            <div class="flex gap-4 order-img-name">
+                                <img src="./assets/image/cart/Rectangle 14.png" alt="">
+                                <div>
+                                    <p>Bóp nam / Ví nam WAN da bò dập vân cá sấu kiểu dáng ngang cao cấp ...</p>
+                                    <p class="text-semigrey">X1</p>
+                                </div>
+                            </div>
+                            <h6>123.000đ</h6>
+                            <h6 class="text-orange">123.000đ</h6>
+                        </div>
+                        <div class="section-line"></div>
+                        <div class="order-item-detail">
+                            <div class="flex gap-4 order-img-name">
+                                <img src="./assets/image/cart/Rectangle 14.png" alt="">
+                                <div>
+                                    <p>Bóp nam / Ví nam WAN da bò dập vân cá sấu kiểu dáng ngang cao cấp ...</p>
+                                    <p class="text-semigrey">X1</p>
+                                </div>
+                            </div>
+                            <h6>123.000đ</h6>
+                            <h6 class="text-orange">123.000đ</h6>
+                        </div>
+                        <div class="section-line"></div>
+                        <div class="flex gap-24 order-total-price">
+                            <p>Tổng tiền</p>
+                            <h4 class="text-orange">123.000đ</h4>
+                        </div>
+                    </div>
+                    <!-- Mobile order detail -->
+                    <div class="section-container w-full mobile-order-detail text-sm">
+                        <div class="order-detail-container">
+                            <div class="flex order-detail-row  font-semibold">
+                                <p>Mã đơn hàng</p>
+                                <p>Ngày đặt</p>
+                            </div>
+                            <div class="flex order-detail-row">
+                                <div class="flex gap-8 flex-grow">
+                                    <p class="text-semigrey">COD37004980</p>
+                                    <p>|</p>
+                                    <p class="text-orange flex gap-4">
+                                        Chi tiết
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 16 16" fill="none">
+                                            <path
+                                                d="M11.3272 13.9922C12.7999 13.9922 13.9939 12.7982 13.9939 11.3255V4.65885C13.9939 3.18619 12.7999 1.99219 11.3272 1.99219H4.66056C3.1879 1.99219 1.9939 3.18619 1.9939 4.65885V7.32552C1.9939 7.69352 2.29256 7.99219 2.66056 7.99219C3.02856 7.99219 3.32723 7.69352 3.32723 7.32552V4.65885C3.32723 3.92219 3.9239 3.32552 4.66056 3.32552H11.3272C12.0639 3.32552 12.6606 3.92219 12.6606 4.65885V11.3255C12.6606 12.0622 12.0639 12.6589 11.3272 12.6589H8.66056C8.29256 12.6589 7.9939 12.9575 7.9939 13.3255C7.9939 13.6935 8.29256 13.9922 8.66056 13.9922H11.3272ZM3.32723 13.3255C3.4979 13.3255 3.67589 13.2682 3.80656 13.1382L8.80656 8.13818L10.6606 9.99219V5.32552H5.9939L7.8479 7.17952L2.8479 12.1795C2.5879 12.4402 2.5879 12.8775 2.8479 13.1382C2.97857 13.2682 3.15656 13.3255 3.32723 13.3255Z"
+                                                fill="#FD7016" />
+                                        </svg>
+                                    </p>
+                                </div>
+                                <p class="text-semigrey">13:43 16/02/2017</p>
+                            </div>
+                            <div class="text-sm font-semibold flex order-detail-row">
+                                <p>Thanh toán</p>
+                                <p>Trạng thái</p>
+                            </div>
+                            <div class="text-sm flex order-detail-row">
+                                <p class="text-semigrey">Thanh toán khi nhận hàng</p>
+                                <p class="order-stage font-semibold">Thành công</p>
+                            </div>
+                            <div class="section-line order-detail-row"></div>
+                            <div class="flex gap-24 order-total-price order-detail-row">
+                                <p>Tổng tiền</p>
+                                <h4 class="text-orange">123.000đ</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-container w-full mobile-order-detail text-sm">
+                        <div class="order-detail-container">
+                            <div class="flex order-detail-row  font-semibold">
+                                <p>Mã đơn hàng</p>
+                                <p>Ngày đặt</p>
+                            </div>
+                            <div class="flex order-detail-row">
+                                <div class="flex gap-8 flex-grow">
+                                    <p class="text-semigrey">COD37004980</p>
+                                    <p>|</p>
+                                    <p class="text-orange flex gap-4">
+                                        Chi tiết
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 16 16" fill="none">
+                                            <path
+                                                d="M11.3272 13.9922C12.7999 13.9922 13.9939 12.7982 13.9939 11.3255V4.65885C13.9939 3.18619 12.7999 1.99219 11.3272 1.99219H4.66056C3.1879 1.99219 1.9939 3.18619 1.9939 4.65885V7.32552C1.9939 7.69352 2.29256 7.99219 2.66056 7.99219C3.02856 7.99219 3.32723 7.69352 3.32723 7.32552V4.65885C3.32723 3.92219 3.9239 3.32552 4.66056 3.32552H11.3272C12.0639 3.32552 12.6606 3.92219 12.6606 4.65885V11.3255C12.6606 12.0622 12.0639 12.6589 11.3272 12.6589H8.66056C8.29256 12.6589 7.9939 12.9575 7.9939 13.3255C7.9939 13.6935 8.29256 13.9922 8.66056 13.9922H11.3272ZM3.32723 13.3255C3.4979 13.3255 3.67589 13.2682 3.80656 13.1382L8.80656 8.13818L10.6606 9.99219V5.32552H5.9939L7.8479 7.17952L2.8479 12.1795C2.5879 12.4402 2.5879 12.8775 2.8479 13.1382C2.97857 13.2682 3.15656 13.3255 3.32723 13.3255Z"
+                                                fill="#FD7016" />
+                                        </svg>
+                                    </p>
+                                </div>
+                                <p class="text-semigrey">13:43 16/02/2017</p>
+                            </div>
+                            <div class="text-sm font-semibold flex order-detail-row">
+                                <p>Thanh toán</p>
+                                <p>Trạng thái</p>
+                            </div>
+                            <div class="text-sm flex order-detail-row">
+                                <p class="text-semigrey">Thanh toán khi nhận hàng</p>
+                                <p class="order-stage font-semibold">Thành công</p>
+                            </div>
+                            <div class="section-line order-detail-row"></div>
+                            <div class="flex gap-24 order-total-price order-detail-row">
+                                <p>Tổng tiền</p>
+                                <h4 class="text-orange">123.000đ</h4>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
+
     <!-- Footer -->
     <footer>
         <div class="footer-header">
