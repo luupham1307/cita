@@ -24,6 +24,11 @@
   .content-container {
     padding: 0 2%;
   }
+  .section-container {
+    border-radius: var(--rounded);
+    background-color: var(--bg-color);
+    padding: 16px;
+  }
 }
 @media (min-width: 768px) { 
   .section-container {

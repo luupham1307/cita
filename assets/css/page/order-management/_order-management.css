@@ -1,0 +1,139 @@
+.order-management-wrapper {
+    gap: 16px;
+    align-items: flex-start;
+}
+.order-search-btn {
+    position: absolute;
+    right: 16px;
+}
+.sidebar-wrapper {
+    margin: 24px 0;
+    min-width: 20.395%;
+}
+.account-name-container {
+    margin-bottom: 24px;
+}
+.account-name-container a {
+    color: var(--primary-color);
+}
+.sidebar-menu-container li {
+    justify-content: space-between;
+    color: #5A5955;
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 8px;
+}
+.active-item {
+    color: var(--primary-color) !important;
+    background-color: var(--footer-color);
+}
+
+.main-content-wrapper {
+    flex-grow: 1;
+}
+.main-content-wrapper h5 {
+    margin-bottom: 16px;
+}
+.categories-wrapper {
+    overflow: auto;
+}
+.categories-container {
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+    grid-auto-flow: column;
+    grid-auto-columns: auto auto auto auto auto auto;
+}
+.actived-category {
+    border-bottom: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.order-search-container {
+    height: 48px;
+    padding-left: 48px;
+    border-radius: 12px;
+    border: 2px solid #E2E2E1;
+    background: var(--bg-color);
+    position: relative;
+    margin: 16px 0;
+}
+.order-search-container svg {
+    position: absolute;
+    left: 12px;
+}
+.order-search-container input:focus-visible {
+    outline: none;
+}
+
+.order-item-container {
+    margin-bottom: 16px;
+}
+.order-header-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 16px;
+}
+.order-stage {
+    color: #276EF1;
+    padding: 8px;
+    background-color: #F0F5FE;
+    border-radius: 8px;
+    width: fit-content;
+}
+
+.order-item-container img{
+    width: 76px;
+    height: 76px;
+}
+.order-item-detail {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-items: center;
+}
+.order-item-detail h6:last-child{
+    justify-self: end;
+}
+.order-img-name {
+    justify-self: baseline;
+}
+.order-total-price {
+    justify-content: end;
+}
+.mobile-order-detail {
+    padding: 0 10px;
+    margin-bottom: 16px;
+}
+.order-detail-container {
+    padding: 16px 0;
+}
+.mobile-order-detail .transaction-stage {
+    padding: 8px;
+    background-color: #F0F5FE;
+    border-radius: 8px;
+}
+.order-detail-row{
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+@media (max-width: 768px) {
+    .sidebar-wrapper,.order-search-container {
+        display: none;
+    }
+    .categories-container {
+        grid-auto-columns: 15% 30% 33% 32% 30% 18%;
+    }
+    .order-item-container {
+        display: none;
+    }
+}
+@media (min-width: 769px) {
+    .mobile-order-detail {
+        display: none;
+    }
+}
+@media (max-width:442px) {
+    .categories-container {
+        grid-auto-columns: 20% 35% 38% 40% 30% 18%;
+    }
+}

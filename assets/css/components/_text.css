@@ -12,10 +12,6 @@
   font-size: 1rem;
   line-height: calc(30 / 16);
 }
-  
-.text-lg {
-
-}
 .text-xl {
   font-size: 2.125rem;
 }
@@ -52,5 +48,5 @@
   color: #5A5955;
 }
 .text-orange {
-  color: #FD7016;
+  color: var(--primary-color);
 }

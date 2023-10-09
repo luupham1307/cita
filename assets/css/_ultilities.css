@@ -28,6 +28,9 @@
   gap: var(--gap-16);
 }
 
+.gap-24 {
+  gap: var(--gap-24);
+}
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -52,7 +55,13 @@
 .w-30 {
   width: 30%;
 }
-
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.flex-grow {
+  flex-grow: 1;
+}
 .flex-column {
   display: flex;
   align-items: center;

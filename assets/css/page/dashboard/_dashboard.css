@@ -1,0 +1,99 @@
+.dashboard-wrapper {
+    gap: 16px;
+    align-items: flex-start;
+}
+.sidebar-wrapper {
+    margin: 24px 0;
+    min-width: 20.395%;
+}
+.account-name-container {
+    margin-bottom: 24px;
+}
+.account-name-container a {
+    color: var(--primary-color);
+}
+.sidebar-menu-container li {
+    justify-content: space-between;
+    color: #5A5955;
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 8px;
+}
+.active-item {
+    color: var(--primary-color) !important;
+    background-color: var(--footer-color);
+}
+
+.main-content-wrapper {
+    flex-grow: 1;
+}
+.main-content-wrapper h5 {
+    margin-bottom: 16px;
+}
+.wallet-infor-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    margin-bottom: 32px;
+}
+.wallet-infor img {
+    width: 40px;
+    height: 40px;
+}
+.wallet-infor h3 {
+    margin-top: 24px;
+}
+.transaction-history-wrapper table {
+    border-collapse: collapse;
+}
+.transaction-history-wrapper td,.transaction-history-wrapper th  {
+    border-bottom: 1px solid #E2E2E1;
+    padding: 24px 10px;
+}
+.transaction-code {
+    color: var(--primary-color);
+}
+.transaction-stage {
+    color: #276EF1;
+}
+.transaction-note {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.transaction-pagination-btn {
+    margin-top: 24px;
+    justify-content: center;
+}
+.pagination-active-btn {
+    border-radius: 40px;
+    border: 2px solid var(--grey-100, #E2E2E1);
+    padding: 8px;
+}
+.mobile-transaction-history {
+    padding: 0 10px;
+}
+.transaction-history-container {
+    padding-top: 16px;
+}
+.mobile-transaction-history .transaction-stage {
+    padding: 8px;
+    background-color: #F0F5FE;
+    border-radius: 8px;
+}
+.transaction-history-row{
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+    .sidebar-wrapper,.transaction-history-wrapper {
+        display: none;
+    }
+}
+@media (min-width:769px) {
+    .mobile-transaction-history {
+        display: none;
+    }
+}
