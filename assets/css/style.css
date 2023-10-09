@@ -56,4 +56,5 @@
 @import url("page/order-management/_order-reposi.css");
 
 
-/* account-partner */
+/* account*/
+@import url("page/acc_deposit/like-product.css");
