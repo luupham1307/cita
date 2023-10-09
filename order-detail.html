@@ -146,6 +146,27 @@
                 </defs>
             </svg>
         </header>
+        <div class=" container mobile-box">
+            <div class="section-container hidden ">
+                <div class="flex  mobile-heading">
+                    <div class="flex gap-8">
+                        <img class="icon-md" src="./assets/image/order/detail.svg" alt="">
+
+                        <h6>Thông tin đơn hàng</h6>
+                    </div>
+                    <p class="order-stage font-semibold" style="text-align: right;">Thành công</p>
+                </div>
+                <div>
+                    <span class="text-grey text-sm">Mã đơn hàng:</span>
+                    <b>#COD37004980</b>
+                </div>
+                <div>
+                    <span class="text-grey text-sm">Ngày đặt hàng:</span>
+                    <span class=" text-sm">13:43 16/02/2017</span>
+                </div>
+            </div>
+        </div>
+
         <div class="container order-detail">
             <!-- Breadcrumb -->
             <div class="breadcrumb">
@@ -308,234 +329,195 @@
                 <!-- Thông tin đơn hàng -->
                 <div class="main-content-wrapper ">
                     <div class="order-detai-header">
-                        <h5>Chi tiết đơn hàng #COD37004980</h5>
-                        <span class="text-grey text-sm ">Ngày đặt hàng: 13:43 16/02/2017</span>
+                        <div class="order-detai-heading flex gap-8">
+                            <h5>Chi tiết đơn hàng #COD37004980</h5>
+                            <span>-</span>
+                            <h5>Thành công</h5>
+                        </div>
+
+                        <span class=" text-grey text-sm ">Ngày đặt hàng: 13:43 16/02/2017</span>
+                    </div>
+                    <!-- heading -->
+                    <div class="order-detail-body">
+                        <div class="order-detail-box  gap-20 w-full ">
+                            <div class="order-detail-box-title section-container w-full  ">
+                                <div class=" flex gap-8">
+                                    <svg class="icon-md hidden" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                                    </svg>
+
+                                    <p class=" text-sm text-inf ">Thông tin người nhận</p>
+                                </div>
+
+                                <div class="order-detail-box-title-content">
+                                    <p class=" text-sm "><b>
+                                            Lucie95
+                                        </b> - 0935140595</p>
+
+                                    <p class=" text-sm ">229 Phạm Hùng - Xã An Đồng - Huyện An Dương - TP. Hải
+                                        Phòng</p>
+                                </div>
+
+                            </div>
+                            <div class="order-detail-box-title section-container w-full">
+                                <div class=" flex gap-8">
+
+                                    <svg class="icon-md hidden" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z" />
+                                    </svg>
+
+
+                                    <p class=" text-sm text-inf ">Thanh toán</p>
+                                </div>
+
+                                <div>
+                                    <p class=" text-sm ">Thanh toán khi nhận hàng</p>
+                                </div>
+                            </div>
+                            <div class="order-detail-box-title section-container w-full">
+                                <div class=" flex gap-8">
+
+
+                                    <img class="icon-md hidden" src="./assets/image/support/xe.svg" alt="">
+
+
+                                    <p class=" text-sm text-inf ">Giao hàng</p>
+                                </div>
+                                <div>
+                                    <p class=" text-sm ">Chờ hàng</p>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="section-container categories-wrapper w-full">
-                        <div class="categories-container">
-                            <a class="actived-category" href="">Tất cả</a>
-                            <a href="">Đơn hàng mới</a>
-                            <a href="">Chờ giao hàng</a>
-                            <a href="">Đang giao hàng</a>
-                            <a href="">Hoàn thành</a>
-                            <a href="">Đã hủy</a>
-                        </div>
-                    </div>
-                    <div class="order-search-container w-full flex">
-                        <input class="w-full" type="text" placeholder="Tìm theo mã đơn hàng, tên sản phẩm">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                            <g clip-path="url(#clip0_46_11666)">
-                                <path
-                                    d="M8.67998 1.66797C4.80666 1.66797 1.66675 4.80815 1.66675 8.68122C1.66675 12.5543 4.80666 15.6945 8.67998 15.6945C10.2901 15.6945 11.8163 15.1413 13 14.2296L16.8164 18.0781C17.1588 18.42 17.7342 18.42 18.0767 18.0781C18.419 17.7353 18.419 17.1602 18.0767 16.8175L14.2338 12.9952C15.1463 11.8117 15.6932 10.2916 15.6932 8.68122C15.6932 4.80815 12.5533 1.66797 8.67998 1.66797ZM8.67998 3.42128C11.585 3.42128 13.9399 5.77598 13.9399 8.68122C13.9399 11.5865 11.585 13.9412 8.67998 13.9412C5.77501 13.9412 3.42006 11.5865 3.42006 8.68122C3.42006 5.77598 5.77501 3.42128 8.67998 3.42128Z"
-                                    fill="#5A5955" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_46_11666">
-                                    <rect width="20" height="20" fill="white" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                    </div>
-                    <div class="section-container flex-col gap-24 order-item-container">
-                        <div class="order-header-container text-sm">
-                            <div class="flex-col gap-8">
-                                <p>Mã đơn hàng</p>
-                                <div class="flex gap-8 flex-grow">
-                                    <p class="text-semigrey">COD37004980</p>
-                                    <p>|</p>
-                                    <p class="text-orange flex gap-4">
-                                        Chi tiết
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            viewBox="0 0 16 16" fill="none">
-                                            <path
-                                                d="M11.3272 13.9922C12.7999 13.9922 13.9939 12.7982 13.9939 11.3255V4.65885C13.9939 3.18619 12.7999 1.99219 11.3272 1.99219H4.66056C3.1879 1.99219 1.9939 3.18619 1.9939 4.65885V7.32552C1.9939 7.69352 2.29256 7.99219 2.66056 7.99219C3.02856 7.99219 3.32723 7.69352 3.32723 7.32552V4.65885C3.32723 3.92219 3.9239 3.32552 4.66056 3.32552H11.3272C12.0639 3.32552 12.6606 3.92219 12.6606 4.65885V11.3255C12.6606 12.0622 12.0639 12.6589 11.3272 12.6589H8.66056C8.29256 12.6589 7.9939 12.9575 7.9939 13.3255C7.9939 13.6935 8.29256 13.9922 8.66056 13.9922H11.3272ZM3.32723 13.3255C3.4979 13.3255 3.67589 13.2682 3.80656 13.1382L8.80656 8.13818L10.6606 9.99219V5.32552H5.9939L7.8479 7.17952L2.8479 12.1795C2.5879 12.4402 2.5879 12.8775 2.8479 13.1382C2.97857 13.2682 3.15656 13.3255 3.32723 13.3255Z"
-                                                fill="#FD7016" />
-                                        </svg>
-                                    </p>
-                                </div>
+
+                    <div class="lu-cart1-body section-container order-detail-box-inner">
+                        <h4>Sản phẩm</h4>
+                        <table class="lu-cart1-table">
+                            <thead class="lu-cart1-thead">
+                                <tr>
+                                    <th>
+                                        <div class="lu-hidden-cart1">
+                                            <span class="text-grey">Sản phẩm</span>
+
+                                        </div>
+                                    </th>
+                                    <th class="show">
+                                        <p class="text-grey ">Đơn giá</p>
+                                    </th>
+                                    <th>
+                                        <p class="text-grey">Số lượng</p>
+                                    </th>
+                                    <th>
+                                        <p class="text-grey">Thành tiền</p>
+                                    </th>
+
+                                </tr>
+
+                            </thead>
+                            <tbody class="lu-cart1-tbody">
+                                <tr>
+
+                                    <td>
+                                        <div class="lu-cart1-inner gap-8">
+                                            <img class="product-cart-img" src="./assets/image/cart/Rectangle 14.png"
+                                                alt="">
+                                            <div class="product-cart-name">
+                                                <span class="product-cart-name-lu">Bóp nam / Ví nam WAN da bò dập vân cá
+                                                    sấu kiểu dáng ngang cao
+                                                    cấp
+                                                    ...
+                                                </span>
+
+                                                <div class="lu-hidden-cart ">
+                                                    <h6>123.000đ</h6>
+                                                    <p>x1</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h6 class="show">123.000đ</h6>
+
+                                    </td>
+                                    <td>
+                                        <p class="text-price">1</p>
+                                    </td>
+                                    <td class="text-orange">
+                                        <h6>123.000đ</h6>
+
+                                    </td>
+
+                                </tr>
+                            </tbody>
+                            <tbody class="lu-cart1-tbody">
+                                <tr>
+                                    <td>
+                                        <div class="lu-cart1-inner gap-8">
+                                            <img class="product-cart-img" src="./assets/image/cart/Rectangle 14.png"
+                                                alt="">
+                                            <div class="product-cart-name">
+                                                <span class="product-cart-name-lu">Bóp nam / Ví nam WAN da bò dập vân cá
+                                                    sấu kiểu dáng ngang cao
+                                                    cấp
+                                                    ...
+                                                </span>
+
+                                                <div class="lu-hidden-cart">
+                                                    <h6>123.000đ</h6>
+                                                    <p>x1</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h6 class="show">123.000đ</h6>
+                                    </td>
+                                    <td>
+                                        <p class="text-price">1</p>
+                                    </td>
+                                    <td class="text-orange">
+                                        <h6>123.000đ</h6>
+                                    </td>
+
+                                </tr>
+                            </tbody>
+
+                        </table>
+                        <div class="footer-tb ">
+                            <div class="order-text">
+                                <p class="text-grey text-sm">Tính tạm</p>
+                                <p class="text-sm">123.000đ</p>
                             </div>
-                            <div class="flex-col gap-8">
-                                <p>Ngày đặt</p>
-                                <p class="text-semigrey flex-grow flex">13:43 16/02/2017</p>
+                            <div class="order-text">
+                                <p class="text-grey text-sm">C Point</p>
+                                <p class="text-sm">43.000đ</p>
                             </div>
-                            <div class="flex-col gap-8">
-                                <p>Thanh toán</p>
-                                <p class="text-semigrey flex-grow flex">Thanh toán khi nhận hàng</p>
+                            <div class="order-text">
+                                <p class="text-grey text-sm">VAT</p>
+                                <p class="text-sm">4.000đ</p>
                             </div>
-                            <div class="flex-col gap-4">
-                                <p>Trạng thái</p>
-                                <p class="text-xs font-semibold order-stage flex-grow">Thành công</p>
+                            <div class="order-text">
+                                <p class="text-grey text-sm">Phí vận chuyển</p>
+                                <p class="text-sm">0đ</p>
                             </div>
-                        </div>
-                        <div class="section-line"></div>
-                        <div class="order-item-detail">
-                            <div class="flex gap-4 order-img-name">
-                                <img src="./assets/image/cart/Rectangle 14.png" alt="">
-                                <div>
-                                    <p>Bóp nam / Ví nam WAN da bò dập vân cá sấu kiểu dáng ngang cao cấp ...</p>
-                                    <p class="text-semigrey">X1</p>
-                                </div>
-                            </div>
-                            <h6>123.000đ</h6>
-                            <h6 class="text-orange">123.000đ</h6>
-                        </div>
-                        <div class="section-line"></div>
-                        <div class="order-item-detail">
-                            <div class="flex gap-4 order-img-name">
-                                <img src="./assets/image/cart/Rectangle 14.png" alt="">
-                                <div>
-                                    <p>Bóp nam / Ví nam WAN da bò dập vân cá sấu kiểu dáng ngang cao cấp ...</p>
-                                    <p class="text-semigrey">X1</p>
-                                </div>
-                            </div>
-                            <h6>123.000đ</h6>
-                            <h6 class="text-orange">123.000đ</h6>
-                        </div>
-                        <div class="section-line"></div>
-                        <div class="flex gap-24 order-total-price">
-                            <p>Tổng tiền</p>
-                            <h4 class="text-orange">123.000đ</h4>
-                        </div>
-                    </div>
-                    <div class="section-container flex-col gap-24 order-item-container">
-                        <div class="order-header-container text-sm">
-                            <div class="flex-col gap-8">
-                                <p>Mã đơn hàng</p>
-                                <div class="flex gap-8 flex-grow">
-                                    <p class="text-semigrey">COD37004980</p>
-                                    <p>|</p>
-                                    <p class="text-orange flex gap-4">
-                                        Chi tiết
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            viewBox="0 0 16 16" fill="none">
-                                            <path
-                                                d="M11.3272 13.9922C12.7999 13.9922 13.9939 12.7982 13.9939 11.3255V4.65885C13.9939 3.18619 12.7999 1.99219 11.3272 1.99219H4.66056C3.1879 1.99219 1.9939 3.18619 1.9939 4.65885V7.32552C1.9939 7.69352 2.29256 7.99219 2.66056 7.99219C3.02856 7.99219 3.32723 7.69352 3.32723 7.32552V4.65885C3.32723 3.92219 3.9239 3.32552 4.66056 3.32552H11.3272C12.0639 3.32552 12.6606 3.92219 12.6606 4.65885V11.3255C12.6606 12.0622 12.0639 12.6589 11.3272 12.6589H8.66056C8.29256 12.6589 7.9939 12.9575 7.9939 13.3255C7.9939 13.6935 8.29256 13.9922 8.66056 13.9922H11.3272ZM3.32723 13.3255C3.4979 13.3255 3.67589 13.2682 3.80656 13.1382L8.80656 8.13818L10.6606 9.99219V5.32552H5.9939L7.8479 7.17952L2.8479 12.1795C2.5879 12.4402 2.5879 12.8775 2.8479 13.1382C2.97857 13.2682 3.15656 13.3255 3.32723 13.3255Z"
-                                                fill="#FD7016" />
-                                        </svg>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="flex-col gap-8">
-                                <p>Ngày đặt</p>
-                                <p class="text-semigrey flex-grow flex">13:43 16/02/2017</p>
-                            </div>
-                            <div class="flex-col gap-8">
-                                <p>Thanh toán</p>
-                                <p class="text-semigrey flex-grow flex">Thanh toán khi nhận hàng</p>
-                            </div>
-                            <div class="flex-col gap-4">
-                                <p>Trạng thái</p>
-                                <p class="text-xs font-semibold order-stage flex-grow">Thành công</p>
-                            </div>
-                        </div>
-                        <div class="section-line"></div>
-                        <div class="order-item-detail">
-                            <div class="flex gap-4 order-img-name">
-                                <img src="./assets/image/cart/Rectangle 14.png" alt="">
-                                <div>
-                                    <p>Bóp nam / Ví nam WAN da bò dập vân cá sấu kiểu dáng ngang cao cấp ...</p>
-                                    <p class="text-semigrey">X1</p>
-                                </div>
-                            </div>
-                            <h6>123.000đ</h6>
-                            <h6 class="text-orange">123.000đ</h6>
-                        </div>
-                        <div class="section-line"></div>
-                        <div class="order-item-detail">
-                            <div class="flex gap-4 order-img-name">
-                                <img src="./assets/image/cart/Rectangle 14.png" alt="">
-                                <div>
-                                    <p>Bóp nam / Ví nam WAN da bò dập vân cá sấu kiểu dáng ngang cao cấp ...</p>
-                                    <p class="text-semigrey">X1</p>
-                                </div>
-                            </div>
-                            <h6>123.000đ</h6>
-                            <h6 class="text-orange">123.000đ</h6>
-                        </div>
-                        <div class="section-line"></div>
-                        <div class="flex gap-24 order-total-price">
-                            <p>Tổng tiền</p>
-                            <h4 class="text-orange">123.000đ</h4>
-                        </div>
-                    </div>
-                    <!-- Mobile order detail -->
-                    <div class="section-container w-full mobile-order-detail text-sm">
-                        <div class="order-detail-container">
-                            <div class="flex order-detail-row  font-semibold">
-                                <p>Mã đơn hàng</p>
-                                <p>Ngày đặt</p>
-                            </div>
-                            <div class="flex order-detail-row">
-                                <div class="flex gap-8 flex-grow">
-                                    <p class="text-semigrey">COD37004980</p>
-                                    <p>|</p>
-                                    <p class="text-orange flex gap-4">
-                                        Chi tiết
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            viewBox="0 0 16 16" fill="none">
-                                            <path
-                                                d="M11.3272 13.9922C12.7999 13.9922 13.9939 12.7982 13.9939 11.3255V4.65885C13.9939 3.18619 12.7999 1.99219 11.3272 1.99219H4.66056C3.1879 1.99219 1.9939 3.18619 1.9939 4.65885V7.32552C1.9939 7.69352 2.29256 7.99219 2.66056 7.99219C3.02856 7.99219 3.32723 7.69352 3.32723 7.32552V4.65885C3.32723 3.92219 3.9239 3.32552 4.66056 3.32552H11.3272C12.0639 3.32552 12.6606 3.92219 12.6606 4.65885V11.3255C12.6606 12.0622 12.0639 12.6589 11.3272 12.6589H8.66056C8.29256 12.6589 7.9939 12.9575 7.9939 13.3255C7.9939 13.6935 8.29256 13.9922 8.66056 13.9922H11.3272ZM3.32723 13.3255C3.4979 13.3255 3.67589 13.2682 3.80656 13.1382L8.80656 8.13818L10.6606 9.99219V5.32552H5.9939L7.8479 7.17952L2.8479 12.1795C2.5879 12.4402 2.5879 12.8775 2.8479 13.1382C2.97857 13.2682 3.15656 13.3255 3.32723 13.3255Z"
-                                                fill="#FD7016" />
-                                        </svg>
-                                    </p>
-                                </div>
-                                <p class="text-semigrey">13:43 16/02/2017</p>
-                            </div>
-                            <div class="text-sm font-semibold flex order-detail-row">
-                                <p>Thanh toán</p>
-                                <p>Trạng thái</p>
-                            </div>
-                            <div class="text-sm flex order-detail-row">
-                                <p class="text-semigrey">Thanh toán khi nhận hàng</p>
-                                <p class="order-stage font-semibold">Thành công</p>
-                            </div>
-                            <div class="section-line order-detail-row"></div>
-                            <div class="flex gap-24 order-total-price order-detail-row">
-                                <p>Tổng tiền</p>
-                                <h4 class="text-orange">123.000đ</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="section-container w-full mobile-order-detail text-sm">
-                        <div class="order-detail-container">
-                            <div class="flex order-detail-row  font-semibold">
-                                <p>Mã đơn hàng</p>
-                                <p>Ngày đặt</p>
-                            </div>
-                            <div class="flex order-detail-row">
-                                <div class="flex gap-8 flex-grow">
-                                    <p class="text-semigrey">COD37004980</p>
-                                    <p>|</p>
-                                    <p class="text-orange flex gap-4">
-                                        Chi tiết
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            viewBox="0 0 16 16" fill="none">
-                                            <path
-                                                d="M11.3272 13.9922C12.7999 13.9922 13.9939 12.7982 13.9939 11.3255V4.65885C13.9939 3.18619 12.7999 1.99219 11.3272 1.99219H4.66056C3.1879 1.99219 1.9939 3.18619 1.9939 4.65885V7.32552C1.9939 7.69352 2.29256 7.99219 2.66056 7.99219C3.02856 7.99219 3.32723 7.69352 3.32723 7.32552V4.65885C3.32723 3.92219 3.9239 3.32552 4.66056 3.32552H11.3272C12.0639 3.32552 12.6606 3.92219 12.6606 4.65885V11.3255C12.6606 12.0622 12.0639 12.6589 11.3272 12.6589H8.66056C8.29256 12.6589 7.9939 12.9575 7.9939 13.3255C7.9939 13.6935 8.29256 13.9922 8.66056 13.9922H11.3272ZM3.32723 13.3255C3.4979 13.3255 3.67589 13.2682 3.80656 13.1382L8.80656 8.13818L10.6606 9.99219V5.32552H5.9939L7.8479 7.17952L2.8479 12.1795C2.5879 12.4402 2.5879 12.8775 2.8479 13.1382C2.97857 13.2682 3.15656 13.3255 3.32723 13.3255Z"
-                                                fill="#FD7016" />
-                                        </svg>
-                                    </p>
-                                </div>
-                                <p class="text-semigrey">13:43 16/02/2017</p>
-                            </div>
-                            <div class="text-sm font-semibold flex order-detail-row">
-                                <p>Thanh toán</p>
-                                <p>Trạng thái</p>
-                            </div>
-                            <div class="text-sm flex order-detail-row">
-                                <p class="text-semigrey">Thanh toán khi nhận hàng</p>
-                                <p class="order-stage font-semibold">Thành công</p>
-                            </div>
-                            <div class="section-line order-detail-row"></div>
-                            <div class="flex gap-24 order-total-price order-detail-row">
-                                <p>Tổng tiền</p>
-                                <h4 class="text-orange">123.000đ</h4>
+                            <div class="order-text">
+                                <p class=" text-sm">Tổng tiền:</p>
+                                <h6 class=" text-orange">123.000đ</h6>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </main>
 

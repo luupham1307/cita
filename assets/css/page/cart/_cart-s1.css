@@ -26,8 +26,7 @@ line-height: 18px;
 }
 .lu-cart1-table th, .lu-cart1-table td {
 padding: 24px 10px;
-    /* padding-left: 10px;
-    padding-right: 10px; */
+   
 }
 .lu-cart1-table th:first-child, .lu-cart1-table td:first-child {
     padding-left: 0;

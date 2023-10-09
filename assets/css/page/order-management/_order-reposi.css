@@ -8,12 +8,38 @@
     .order-item-container {
         display: none;
     }
+   .order-detai-heading ,.order-detai-header {
+    display: none;
+   }
+   .order-detail-box {
+    flex-direction: column;
+
+    
+}
+.order-detail-box-title {
+        
+    margin-bottom: 0;
+}
+.text-inf  {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #000;
+    }
+    
+    .container.order-detail {
+        padding: 0;
+    }
+    .mobile-box {
+        padding: 0;
+    }
+
 }
 @media (min-width: 769px) {
     .mobile-order-detail {
         display: none;
-    }
-}
+    }}
+   
 @media (max-width:442px) {
     .categories-container {
         grid-auto-columns: 20% 35% 38% 40% 30% 18%;
