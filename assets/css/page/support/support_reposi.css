@@ -1,5 +1,5 @@
 @media (min-width:768px ) {
-    .search-page .lu-cart-wrapper-mobile-header {
+    .search-page .lu-cart-wrapper-mobile-header, .explore .lu-cart-wrapper-mobile-header {
         display: none;
     }
 }
@@ -14,11 +14,7 @@
     .lu-support-wellcome {
         padding:24px;
     }
-    .lu-support-wellcome  h2 {
-    /* font-size: 95%; */
-    }
     .lu-support-wellcome  button.search-btn {
-    
         border: 0;
     }
     .search-page .mobile-nav  {
@@ -42,14 +38,13 @@
     }
     .explore .lu-cart-wrapper-mobile-header {
         color: black;
-        
         /* margin-bottom: 0; */
-
         background: white;
     }
     .explore .product-recomendation-container {
         margin-bottom: 0;
     }
+   
 }
     @media (max-width:595px ) {
         .lu-support-wellcome  h2 {

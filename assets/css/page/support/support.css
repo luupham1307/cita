@@ -14,7 +14,6 @@
 }
 .support-category {
     padding: 16px 20px;
-    /* justify-content: space-between; */
 }
 .support-category-wrapper {
     display: grid;
@@ -39,6 +38,12 @@
 .explore-dashboard-title {
     gap: 10px;
     justify-content: space-between;
+align-items: flex-start;
+
+}
+.explore-dashboard-title .flex.gap-8 {
+align-items: flex-start;
+    
 }
 .explore-dashboard-inner, .explore-dashboard   {
     display: flex;
@@ -74,4 +79,14 @@
 .explore-body h3 {
     line-height: normal;
     padding-bottom: 16px;
+}
+/* sp3 */
+
+p.font-semibold.text-sm {
+    white-space: nowrap;
+}
+.explore-details-img {
+    padding-top: 16px;
+    padding-bottom: 16px;
+
 }
