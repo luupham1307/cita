@@ -1,0 +1,122 @@
+.text-color-gray-security-layout-two{
+    color:#5A5955;
+    font-size:0.875em;
+    margin-bottom:8px;
+    line-height:20px;
+}
+.gr-qr-wrapper{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-bottom:24px;
+}
+.code-qr-btn{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-grow:2;
+}
+.change-security-layout-2-label-input{
+    margin-bottom:16px;
+}
+.change-security-layout-2-pass-input-wrapper{
+    /* display:flex;
+    justify-content:center; */
+}
+.img-qr>img{
+    width:92px;
+    height:92px;
+}
+
+.change-security-layout-2-pass-input-container{
+    width:510px;
+}
+.change-security-layout-2-pass-input-container>.password-input{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.change-security-layout-2-pass-input-container input[type="text"],.change-security-layout-2-pass-input-container input[type="password"] {
+    height: 48px;
+    padding: 0px 12px;
+    align-self: stretch;
+    border-radius: 12px;
+    border: 1px solid #E2E2E1;
+    width: 342px;
+    margin-bottom: 16px;
+}
+.change-security-layout-2-pass-input-container input[type="text"]::placeholder,.change-security-layout-2-pass-input-container input[type="password"]::placeholder{
+    color: #706F6A;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+}
+.change-security-layout-2-pass-input-container>.password-input svg {
+    position: absolute;
+    right: 12px;
+    bottom: 28px;
+}
+.justify-content-center-btn-update{
+    justify-content:center;
+}
+.update-btn {
+    padding: 14px 24px;
+    background-color: var(--primary-color);
+    border-radius: 12px;
+    margin: 24px 0;
+    width:192px;
+}
+.btn-copy>button{
+    padding: 8px 24px;
+    border-radius: 12px;
+    margin: 24px 0;
+    width:132px;
+   color: linear-gradient(0deg, #E2E2E1, #E2E2E1),
+linear-gradient(0deg, #FCFCFC, #FCFCFC);
+border: 1px solid #E2E2E1
+}
+.text-color-gray-security-layout-one{
+    display:none;
+}
+@media (max-width: 768px) {
+    .change-security-layout-2-pass-input-container>.password-input{
+       display:block;
+    }
+    .change-security-layout-2-pass-input-container input[type="text"],.change-security-layout-2-pass-input-container input[type="password"] {
+      
+        width: 100%;
+     
+    }
+    .change-security-layout-2-pass-input-container>.password-input svg {
+        position: absolute;
+        right: 12px;
+        bottom: 12px;
+    }
+    .change-security-layout-2-pass-input-container{
+        width:100%;
+     }
+     .update-btn {
+        width:100%;
+    }
+    .change-security-layout-2-label-input{
+        margin-bottom:8px;
+    }
+    .gr-qr-wrapper{
+        flex-direction:column;
+       align-items:center;
+    }
+    .code-qr-btn{
+        flex-direction:column;
+       align-items:center;
+    }
+    .text-color-gray-security-layout-one{
+        display:block;
+        color:#5A5955;
+        font-size:0.875em;
+        margin-bottom:8px;
+        line-height:20px;
+    }
+    .text-color-gray-security-layout-two{
+        display:none;
+    }
+}

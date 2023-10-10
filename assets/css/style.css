@@ -57,3 +57,7 @@
 
 
 /* account-partner */
+
+@import url("page/account-pass/_account-pass.css");
+@import url("page/account-pass-2/_account-pass-2.css");
+@import url("page/account-2fa/_account-2fa.css");
