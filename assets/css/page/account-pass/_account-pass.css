@@ -1,0 +1,71 @@
+.change-label-input{
+    margin-bottom: 16px;
+}
+.change-pass-input-wrapper{
+    display:flex;
+    justify-content:center;
+}
+
+.change-pass-input-container{
+    width:510px;
+}
+.change-pass-input-container>.password-input{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.change-pass-input-container input[type="text"],.change-pass-input-container input[type="password"] {
+    height: 48px;
+    padding: 0px 12px;
+    align-self: stretch;
+    border-radius: 12px;
+    border: 1px solid #E2E2E1;
+    width: 342px;
+    margin-bottom: 16px;
+}
+.change-pass-input-container input[type="text"]::placeholder,.change-pass-input-container input[type="password"]::placeholder{
+    color: #706F6A;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+}
+.change-pass-input-container>.password-input svg {
+    position: absolute;
+    right: 12px;
+    bottom: 28px;
+}
+.justify-content-center-btn-update{
+    justify-content:center;
+}
+.update-btn {
+    padding: 14px 24px;
+    background-color: var(--primary-color);
+    border-radius: 12px;
+    margin: 24px 0;
+    width:192px;
+}
+@media (max-width: 768px) {
+    .change-pass-input-container>.password-input{
+       display:block;
+    }
+    .change-pass-input-container input[type="text"],.change-pass-input-container input[type="password"] {
+      
+        width: 100%;
+     
+    }
+    .change-pass-input-container>.password-input svg {
+        position: absolute;
+        right: 12px;
+        bottom: 12px;
+    }
+    .change-pass-input-container{
+        width:100%;
+     }
+     .update-btn {
+        width:100%;
+    }
+
+    .change-label-input{
+        margin-bottom: 8px;
+    }
+}
