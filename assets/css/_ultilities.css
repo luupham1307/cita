@@ -76,7 +76,19 @@
   padding-bottom: 16px;
 }
 
-/* .container.section-container.product-information.flex {
-  padding-top: 16px;
-  padding-bottom: 16px;
-} */
+
+.show {
+  display: block;
+}
+
+
+@media (min-width: 769px) {
+  .hidden {
+    display: none;
+  }
+}
+@media (max-width: 769px) {
+  .show {
+    display: none;
+  }
+}

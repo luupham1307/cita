@@ -61,3 +61,7 @@
 @import url("page/account-pass/_account-pass.css");
 @import url("page/account-pass-2/_account-pass-2.css");
 @import url("page/account-2fa/_account-2fa.css");
+/* account*/
+@import url("page/acc_deposit/like-product.css");
+@import url("page/acc_deposit/transaction.css");
+
