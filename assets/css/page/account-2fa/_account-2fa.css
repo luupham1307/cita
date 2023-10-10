@@ -119,4 +119,9 @@ border: 1px solid #E2E2E1
     .text-color-gray-security-layout-two{
         display:none;
     }
+
+.acc-2fa-security-btn {
+    margin-left: 25%;
+    margin-right: 25%;
+}
 }

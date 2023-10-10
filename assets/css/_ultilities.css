@@ -92,3 +92,6 @@
     display: none;
   }
 }
+.sidebar-wrapper:hover {
+  cursor: pointer;
+}
