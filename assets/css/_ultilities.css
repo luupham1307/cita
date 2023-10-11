@@ -67,6 +67,14 @@
   align-items: center;
   flex-direction: column;
 }
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.
+
 
 
 .product-listing-header ,.product-details-mg,.product-reviews,.idee-lu  {
@@ -77,9 +85,7 @@
 }
 
 
-.show {
-  display: block;
-}
+
 
 
 @media (min-width: 769px) {
@@ -91,7 +97,11 @@
   .show {
     display: none;
   }
+  .address-mb {
+    padding: 0;
+}
 }
 .sidebar-wrapper:hover {
   cursor: pointer;
 }
+

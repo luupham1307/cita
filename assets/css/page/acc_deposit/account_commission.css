@@ -1,0 +1,25 @@
+.commission-mb {
+    margin-top: 24px;
+}
+.address-local {
+    padding: 4px;
+    border-radius: 14px;
+}
+.lu-address h5 {
+    margin-bottom: 0;
+}
+.lu-address-wrapper {
+    border-radius: 12px;
+    border: 1px dashed  #FD7016;
+    padding: 14px 24px;
+}
+@media (max-width: 769px) {
+    .lu-address .container {
+        padding: 0;
+
+    }
+    .address-mb {
+        padding: 0;
+    }
+   
+  }
