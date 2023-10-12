@@ -2,10 +2,40 @@
     grid-template-columns: repeat(4, minmax(0, 1fr));
     margin-top: 16px;
 }
+
+/* xac nhanP inf */
+
+
+.verify-wrapper {
+padding: 24px;
+gap: 20px;
+border-radius: 12px;
+border: 1px dashed  #E4E4E4;
+background: rgba(6, 106, 255, 0.05);
+}
+.verify-body {
+    background-color: var(--bg-color);
+    border-radius: var(--rounded);
+    padding: 16px 20px;
+}
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 992px) {
     .like-product .product-recomendation {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
+}
+
+@media (max-width: 786px) {
+   
 }
 @media (max-width: 576px) {
     .like-product .product-recomendation {

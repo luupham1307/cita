@@ -44,7 +44,7 @@ padding: 0;
 }
 .btn-dashboad-search-btn {
     width: auto;
-    height: 33px;
+    height: 46px;
     margin-top: 6px;
     margin-bottom: 16px;
 }
@@ -60,13 +60,19 @@ button.w-full.btn-dashboad-search-btn.flex.gap-8.font-semibold.more-less-btn-ora
 }
 .lu-wrapper-body button {
     display: flex;
-    height: 36px;
+    height: 46px;
     padding: 8px 12px;
     justify-content: center;
     align-items: center;
     gap: 8px;
     border-radius: 8px;
 border: 1px solid var(--grey-100, #E2E2E1);
+}
+@media (max-width: 768px) {
+    .lu-wrapper-body button  {
+margin-bottom: 64px;
+
+    }
 }
 .lu-wrapper-heading {
     margin-bottom: 16px;

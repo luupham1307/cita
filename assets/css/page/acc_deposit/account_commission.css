@@ -13,6 +13,37 @@
     border: 1px dashed  #FD7016;
     padding: 14px 24px;
 }
+/* inf */
+.inf-profile {
+    min-width: 20.395%;
+}
+.inf-profile img {
+    width: 92px;
+    margin: 0 auto;
+}
+.info-body input {
+    width: 100%;
+    font-size: 0.875rem;
+    color: #000;
+    padding: 0.93rem 0.75rem;
+    outline: none;
+}
+.info-body-inner  {
+    gap: 4%;
+    align-items: center;
+    grid-template-columns: 26% 70%;
+    margin-bottom: 24px;
+}
+.info-btn {
+    flex: 1;
+    max-width: 33%;
+}
+
+
+
+
+
+
 @media (max-width: 769px) {
     .lu-address .container {
         padding: 0;
@@ -21,5 +52,24 @@
     .address-mb {
         padding: 0;
     }
+    .inf-profile {
+        width: 100%;
    
   }
+  .inf-profile button {
+    width:200px;
+    margin: 0 auto;
+  }
+  .inf-profile .flex.gap-8.hidden.w-full {
+    justify-content: center;
+
+}
+
+
+}
+@media (max-width: 576px) {
+    .info-body-inner {
+        grid-template-columns: repeat(1,1fr);
+        gap: 8px;
+    }}
+    
