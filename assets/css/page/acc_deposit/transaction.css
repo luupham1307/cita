@@ -1,6 +1,6 @@
 .recharge-inner {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 50% 50%;
     padding-bottom: 16px;
 }
 .recharge-title {
@@ -35,5 +35,29 @@
   }
   .recharge-img {
     border-right: 1px solid #ccc;
+  }
+  @media (max-width: 768px) {
+
+    .recharge-wrapper {
+    display: grid;
+    grid-template-columns:none;
+}
+.recharge-img {
+  gap: 16px;
+  border-right: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recharge-img img:first-child {
+  margin: 0 ;
+}
+
+.recharge-img img:last-child {
+  margin: 0 ;
+}
+.recharge-inner {
+  grid-template-columns: none;
+}
   }
   
