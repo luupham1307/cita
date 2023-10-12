@@ -36,6 +36,28 @@
   .recharge-img {
     border-right: 1px solid #ccc;
   }
+  .trans-note {
+    padding: 12px 12px;
+    border-radius: 12px;
+    border: 1px solid #E2E2E1;
+    width: 342px;
+    margin-bottom: 16px;
+    height: 112px;
+    outline: none;
+
+  }
+  .create-pass-input-container>.trans-note-title{
+    align-items: flex-start;
+  }
+  .trans-note::placeholder{
+
+    color: #706F6A;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    font-family: var(--body-ff);
+}
+  
   @media (max-width: 768px) {
 
     .recharge-wrapper {
@@ -58,6 +80,15 @@
 }
 .recharge-inner {
   grid-template-columns: none;
-}
+}}
+
+@media (max-width: 768px){
+  .trans-input input {
+    width: 100%;
   }
+  .trans-input input[type="text"]:not(.trans-note) , .trans-note{
+    width: 100%;
+  }
+}
+  
   
