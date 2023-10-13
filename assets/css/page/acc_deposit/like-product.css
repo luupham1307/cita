@@ -18,9 +18,13 @@ background: rgba(6, 106, 255, 0.05);
     border-radius: var(--rounded);
     padding: 16px 20px;
 }
-/* bank inf */
+/* history */
 
-
+.his-table .transaction-stage  {
+    background-color: #F0F5FE;
+padding: 8px;
+border-radius: 8px;
+}
 
 
 
@@ -36,6 +40,9 @@ background: rgba(6, 106, 255, 0.05);
 }
 
 @media (max-width: 786px) {
+    .section-container.w-full.history-sidebar.flex.gap-20 {
+        justify-content: space-between;
+    }
    
 }
 @media (max-width: 576px) {

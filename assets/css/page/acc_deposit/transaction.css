@@ -52,10 +52,13 @@
   .trans-note::placeholder{
 
     color: #706F6A;
-    font-size: 14px;
+    /* font-size: 14px; */
     font-weight: 600;
     line-height: 18px;
     font-family: var(--body-ff);
+}
+.withdraw-input {
+  margin-bottom: 24px;
 }
   
   @media (max-width: 768px) {
