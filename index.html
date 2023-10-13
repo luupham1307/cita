@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
 
     <!-- Fontawesome Icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -13,6 +13,9 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
     <title>Cita</title>
 </head>
@@ -270,19 +273,13 @@
                                         <img src="./assets/image/option/svg4.svg" alt="">
                                         <p class="option-test">Giảm giá sốc</p>
                                     </div>
-                                    <!-- <div class="lu-option-inner">
-                                    <img src="./assets/image/option/svg11.svg" alt="">
-                                    <p class="option-test">Giảm giá sốc</p>
-                                </div>
-                                <div class="lu-option-inner">
-                                    <img class="hidden" src="./assets/image/option/sv2.svg" alt="">
-                                    <p class="option-test">Giảm giá sốc</p>
-                                </div> -->
+
                                 </div>
 
                             </section>
-                            <!-- Mua hàng bằng C Point  -->
-                            <section class="section-container product-listing flex">
+
+                            <!-- mua hang c -->
+                            <section class="section-container product-listing ">
                                 <div class="product-listing-header flex w-full">
                                     <div class="flex gap-12">
                                         <img class="icon-lg" src="./assets/image/logo/c-logo.svg" alt="">
@@ -298,174 +295,243 @@
                                         </svg>
                                     </div>
                                 </div>
-                                <div class="product-card-list flex gap-10">
-                                    <div class="product-card-item gap-10">
-                                        <img class="product-card-img" src="./assets/image/feature/latte.jpg" alt="">
-                                        <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
-                                        <div class="flex gap-8">
-                                            <div class="flex">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    alt="">
+                                <div class="swiper mySwiper section-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="product-card-item gap-10 swiper-slide flex">
+                                            <img class="product-card-img" src="./assets/image/feature/latte.jpg" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
                                             </div>
-                                            <p>(1.1k)</p>
+                                            <h5>86.000đ</h5>
                                         </div>
-                                        <h5>86.000đ</h5>
-                                    </div>
-                                    <div class="product-card-item gap-10">
-                                        <img class="product-card-img" src="./assets/image/feature/dongho.jpg" alt="">
-                                        <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
-                                        <div class="flex gap-8">
-                                            <div class="flex">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    alt="">
-                                            </div>
-                                            <p>(1.1k)</p>
-                                        </div>
-                                        <h5>86.000đ</h5>
-                                    </div>
-                                    <div class="product-card-item gap-10">
-                                        <img class="product-card-img" src="./assets/image/feature/giay.jpg" alt="">
-                                        <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
-                                        <div class="flex gap-8">
-                                            <div class="flex">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    alt="">
-                                            </div>
-                                            <p>(1.1k)</p>
-                                        </div>
-                                        <h5>86.000đ</h5>
-                                    </div>
-                                    <div class="product-card-item gap-10">
-                                        <img class="product-card-img" src="./assets/image/feature/son.png" alt="">
-                                        <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
-                                        <div class="flex gap-8">
-                                            <div class="flex">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    alt="">
-                                            </div>
-                                            <p>(1.1k)</p>
-                                        </div>
-                                        <h5>86.000đ</h5>
-                                    </div>
 
-                                    <div class="product-card-item gap-10">
-                                        <img class="product-card-img" src="./assets/image/feature/latte.jpg" alt="">
-                                        <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
-                                        <div class="flex gap-8">
-                                            <div class="flex">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    alt="">
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/dongho.jpg"
+                                                alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
                                             </div>
-                                            <p>(1.1k)</p>
+                                            <h5>86.000đ</h5>
                                         </div>
-                                        <h5>86.000đ</h5>
-                                    </div>
-                                    <div class="product-card-item gap-10">
-                                        <img class="product-card-img" src="./assets/image/feature/dongho.jpg" alt="">
-                                        <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
-                                        <div class="flex gap-8">
-                                            <div class="flex">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    alt="">
+
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/giay.jpg" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
                                             </div>
-                                            <p>(1.1k)</p>
+                                            <h5>86.000đ</h5>
                                         </div>
-                                        <h5>86.000đ</h5>
-                                    </div>
-                                    <div class="product-card-item gap-10">
-                                        <img class="product-card-img" src="./assets/image/feature/giay.jpg" alt="">
-                                        <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
-                                        <div class="flex gap-8">
-                                            <div class="flex">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    alt="">
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/son.png" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
                                             </div>
-                                            <p>(1.1k)</p>
+                                            <h5>86.000đ</h5>
                                         </div>
-                                        <h5>86.000đ</h5>
-                                    </div>
-                                    <div class="product-card-item gap-10">
-                                        <img class="product-card-img" src="./assets/image/feature/son.png" alt="">
-                                        <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
-                                        <div class="flex gap-8">
-                                            <div class="flex">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    alt="">
-                                            </div>
-                                            <p>(1.1k)</p>
-                                        </div>
-                                        <h5>86.000đ</h5>
-                                    </div>
 
 
+                                        <div class="product-card-item gap-10 swiper-slide flex">
+                                            <img class="product-card-img" src="./assets/image/feature/latte.jpg" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
+                                            </div>
+                                            <h5>86.000đ</h5>
+                                        </div>
+
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/dongho.jpg"
+                                                alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
+                                            </div>
+                                            <h5>86.000đ</h5>
+                                        </div>
+
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/giay.jpg" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
+                                            </div>
+                                            <h5>86.000đ</h5>
+                                        </div>
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/son.png" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
+                                            </div>
+                                            <h5>86.000đ</h5>
+                                        </div>
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/latte.jpg" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
+                                            </div>
+                                            <h5>86.000đ</h5>
+                                        </div>
+
+                                    </div>
+                                    <!-- <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div> -->
+                                    <div class="swiper-pagination"></div>
                                 </div>
+
                             </section>
+
                             <!-- Giá sốc -->
-                            <section class="section-container product-listing product-listing-lu flex">
+                            <section class="section-container product-listing ">
                                 <div class="product-listing-header flex w-full">
                                     <div class="flex gap-12">
                                         <img class="icon-lg" src="./assets/image/svg/tui.svg" alt="">
@@ -477,180 +543,247 @@
                                             viewBox="0 0 20 20" fill="none">
                                             <path
                                                 d="M8.47179 4.18507C8.26346 4.14257 8.03929 4.16091 7.84846 4.28924C7.46763 4.54424 7.36096 5.07758 7.61513 5.46091L10.6251 9.99174L7.61513 14.5234C7.36096 14.9059 7.46763 15.4401 7.84846 15.6951C8.23013 15.9501 8.76179 15.8434 9.01596 15.4609L12.3376 10.4609C12.5234 10.1809 12.5234 9.8034 12.3376 9.5234L9.01596 4.52341C8.88929 4.33174 8.68013 4.22674 8.47179 4.18507Z"
-                                                fill="#5A5955" />
+                                                fill="#5A5955"></path>
                                         </svg>
                                     </div>
                                 </div>
-                                <div class="product-card-list flex gap-10">
-                                    <div class="product-card-item gap-10">
-                                        <img class="product-card-img" src="./assets/image/feature/latte.jpg" alt="">
-                                        <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
-                                        <div class="flex gap-8">
-                                            <div class="flex">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    alt="">
+                                <div class="swiper mySwiper section-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="product-card-item gap-10 swiper-slide flex">
+                                            <img class="product-card-img" src="./assets/image/feature/latte.jpg" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
                                             </div>
-                                            <p>(1.1k)</p>
+                                            <h5>86.000đ</h5>
                                         </div>
-                                        <h5>86.000đ</h5>
-                                    </div>
-                                    <div class="product-card-item gap-10">
-                                        <img class="product-card-img" src="./assets/image/feature/dongho.jpg" alt="">
-                                        <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
-                                        <div class="flex gap-8">
-                                            <div class="flex">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    alt="">
+
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/dongho.jpg"
+                                                alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
                                             </div>
-                                            <p>(1.1k)</p>
+                                            <h5>86.000đ</h5>
                                         </div>
-                                        <h5>86.000đ</h5>
-                                    </div>
-                                    <div class="product-card-item gap-10">
-                                        <img class="product-card-img" src="./assets/image/feature/giay.jpg" alt="">
-                                        <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
-                                        <div class="flex gap-8">
-                                            <div class="flex">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    alt="">
+
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/giay.jpg" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
                                             </div>
-                                            <p>(1.1k)</p>
+                                            <h5>86.000đ</h5>
                                         </div>
-                                        <h5>86.000đ</h5>
-                                    </div>
-                                    <div class="product-card-item gap-10">
-                                        <img class="product-card-img" src="./assets/image/feature/son.png" alt="">
-                                        <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
-                                        <div class="flex gap-8">
-                                            <div class="flex">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    alt="">
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/son.png" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
                                             </div>
-                                            <p>(1.1k)</p>
+                                            <h5>86.000đ</h5>
                                         </div>
-                                        <h5>86.000đ</h5>
-                                    </div>
 
 
-                                    <div class="product-card-item gap-10">
-                                        <img class="product-card-img" src="./assets/image/feature/latte.jpg" alt="">
-                                        <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
-                                        <div class="flex gap-8">
-                                            <div class="flex">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    alt="">
+                                        <div class="product-card-item gap-10 swiper-slide flex">
+                                            <img class="product-card-img" src="./assets/image/feature/latte.jpg" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
                                             </div>
-                                            <p>(1.1k)</p>
+                                            <h5>86.000đ</h5>
                                         </div>
-                                        <h5>86.000đ</h5>
-                                    </div>
-                                    <div class="product-card-item gap-10">
-                                        <img class="product-card-img" src="./assets/image/feature/dongho.jpg" alt="">
-                                        <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
-                                        <div class="flex gap-8">
-                                            <div class="flex">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    alt="">
-                                            </div>
-                                            <p>(1.1k)</p>
-                                        </div>
-                                        <h5>86.000đ</h5>
-                                    </div>
-                                    <div class="product-card-item gap-10">
-                                        <img class="product-card-img" src="./assets/image/feature/giay.jpg" alt="">
-                                        <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
-                                        <div class="flex gap-8">
-                                            <div class="flex">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    alt="">
-                                            </div>
-                                            <p>(1.1k)</p>
-                                        </div>
-                                        <h5>86.000đ</h5>
-                                    </div>
-                                    <div class="product-card-item gap-10">
-                                        <img class="product-card-img" src="./assets/image/feature/son.png" alt="">
-                                        <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
-                                        <div class="flex gap-8">
-                                            <div class="flex">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    alt="">
-                                            </div>
-                                            <p>(1.1k)</p>
-                                        </div>
-                                        <h5>86.000đ</h5>
-                                    </div>
 
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/dongho.jpg"
+                                                alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
+                                            </div>
+                                            <h5>86.000đ</h5>
+                                        </div>
 
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/giay.jpg" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
+                                            </div>
+                                            <h5>86.000đ</h5>
+                                        </div>
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/son.png" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
+                                            </div>
+                                            <h5>86.000đ</h5>
+                                        </div>
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/latte.jpg" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
+                                            </div>
+                                            <h5>86.000đ</h5>
+                                        </div>
+
+                                    </div>
+                                    <!-- <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div> -->
+                                    <div class="swiper-pagination"></div>
                                 </div>
                             </section>
 
+
                             <!-- sản phẩm bán chạy -->
-                            <section class="section-container product-listing  roduct-listing-lu flex">
+                            <section class="section-container product-listing ">
                                 <div class="product-listing-header flex w-full">
                                     <div class="flex gap-12">
                                         <img class="icon-lg" src="./assets/image/svg/tui.svg" alt="">
@@ -666,174 +799,492 @@
                                         </svg>
                                     </div>
                                 </div>
-                                <div class="product-card-list flex gap-10">
-                                    <div class="product-card-item gap-10">
-                                        <img class="product-card-img" src="./assets/image/feature/latte.jpg" alt="">
-                                        <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
-                                        <div class="flex gap-8">
-                                            <div class="flex">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    alt="">
+                                <div class="swiper mySwiper section-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="product-card-item gap-10 swiper-slide flex">
+                                            <img class="product-card-img" src="./assets/image/feature/latte.jpg" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
                                             </div>
-                                            <p>(1.1k)</p>
+                                            <h5>86.000đ</h5>
                                         </div>
-                                        <h5>86.000đ</h5>
-                                    </div>
-                                    <div class="product-card-item gap-10">
-                                        <img class="product-card-img" src="./assets/image/feature/dongho.jpg" alt="">
-                                        <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
-                                        <div class="flex gap-8">
-                                            <div class="flex">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    alt="">
-                                            </div>
-                                            <p>(1.1k)</p>
-                                        </div>
-                                        <h5>86.000đ</h5>
-                                    </div>
-                                    <div class="product-card-item gap-10">
-                                        <img class="product-card-img" src="./assets/image/feature/giay.jpg" alt="">
-                                        <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
-                                        <div class="flex gap-8">
-                                            <div class="flex">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    alt="">
-                                            </div>
-                                            <p>(1.1k)</p>
-                                        </div>
-                                        <h5>86.000đ</h5>
-                                    </div>
-                                    <div class="product-card-item gap-10">
-                                        <img class="product-card-img" src="./assets/image/feature/son.png" alt="">
-                                        <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
-                                        <div class="flex gap-8">
-                                            <div class="flex">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    alt="">
-                                            </div>
-                                            <p>(1.1k)</p>
-                                        </div>
-                                        <h5>86.000đ</h5>
-                                    </div>
 
-                                    <div class="product-card-item gap-10">
-                                        <img class="product-card-img" src="./assets/image/feature/latte.jpg" alt="">
-                                        <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
-                                        <div class="flex gap-8">
-                                            <div class="flex">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    alt="">
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/dongho.jpg"
+                                                alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
                                             </div>
-                                            <p>(1.1k)</p>
+                                            <h5>86.000đ</h5>
                                         </div>
-                                        <h5>86.000đ</h5>
-                                    </div>
-                                    <div class="product-card-item gap-10">
-                                        <img class="product-card-img" src="./assets/image/feature/dongho.jpg" alt="">
-                                        <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
-                                        <div class="flex gap-8">
-                                            <div class="flex">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    alt="">
+
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/giay.jpg" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
                                             </div>
-                                            <p>(1.1k)</p>
+                                            <h5>86.000đ</h5>
                                         </div>
-                                        <h5>86.000đ</h5>
-                                    </div>
-                                    <div class="product-card-item gap-10">
-                                        <img class="product-card-img" src="./assets/image/feature/giay.jpg" alt="">
-                                        <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
-                                        <div class="flex gap-8">
-                                            <div class="flex">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    alt="">
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/son.png" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
                                             </div>
-                                            <p>(1.1k)</p>
+                                            <h5>86.000đ</h5>
                                         </div>
-                                        <h5>86.000đ</h5>
-                                    </div>
-                                    <div class="product-card-item gap-10">
-                                        <img class="product-card-img" src="./assets/image/feature/son.png" alt="">
-                                        <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
-                                        <div class="flex gap-8">
-                                            <div class="flex">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    class="" alt="">
-                                                <img class="icon-xs" src="./assets/image/product-detail/yello-star.svg"
-                                                    alt="">
-                                            </div>
-                                            <p>(1.1k)</p>
-                                        </div>
-                                        <h5>86.000đ</h5>
-                                    </div>
 
 
+                                        <div class="product-card-item gap-10 swiper-slide flex">
+                                            <img class="product-card-img" src="./assets/image/feature/latte.jpg" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
+                                            </div>
+                                            <h5>86.000đ</h5>
+                                        </div>
+
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/dongho.jpg"
+                                                alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
+                                            </div>
+                                            <h5>86.000đ</h5>
+                                        </div>
+
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/giay.jpg" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
+                                            </div>
+                                            <h5>86.000đ</h5>
+                                        </div>
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/son.png" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
+                                            </div>
+                                            <h5>86.000đ</h5>
+                                        </div>
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/latte.jpg" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
+                                            </div>
+                                            <h5>86.000đ</h5>
+                                        </div>
+
+                                    </div>
+                                    <!-- <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div> -->
+                                    <div class="swiper-pagination"></div>
                                 </div>
                             </section>
 
+
                             <!-- thương hiệu nổi bật -->
+                            <!-- sản phẩm bán chạy -->
+                            <section class="section-container product-listing ">
+                                <div class="product-listing-header flex w-full">
+                                    <div class="flex gap-12">
+                                        <img class="icon-lg" src="./assets/image/svg/tui.svg" alt="">
+                                        <h4>Sản phẩm bán chạy</h4>
+                                    </div>
+                                    <div class="flex gap-4">
+                                        <a>Xem thêm</a>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 20 20" fill="none">
+                                            <path
+                                                d="M8.47179 4.18507C8.26346 4.14257 8.03929 4.16091 7.84846 4.28924C7.46763 4.54424 7.36096 5.07758 7.61513 5.46091L10.6251 9.99174L7.61513 14.5234C7.36096 14.9059 7.46763 15.4401 7.84846 15.6951C8.23013 15.9501 8.76179 15.8434 9.01596 15.4609L12.3376 10.4609C12.5234 10.1809 12.5234 9.8034 12.3376 9.5234L9.01596 4.52341C8.88929 4.33174 8.68013 4.22674 8.47179 4.18507Z"
+                                                fill="#5A5955" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="swiper mySwiper section-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="product-card-item gap-10 swiper-slide flex">
+                                            <img class="product-card-img" src="./assets/image/feature/latte.jpg" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
+                                            </div>
+                                            <h5>86.000đ</h5>
+                                        </div>
+
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/dongho.jpg"
+                                                alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
+                                            </div>
+                                            <h5>86.000đ</h5>
+                                        </div>
+
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/giay.jpg" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
+                                            </div>
+                                            <h5>86.000đ</h5>
+                                        </div>
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/son.png" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
+                                            </div>
+                                            <h5>86.000đ</h5>
+                                        </div>
+
+
+                                        <div class="product-card-item gap-10 swiper-slide flex">
+                                            <img class="product-card-img" src="./assets/image/feature/latte.jpg" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
+                                            </div>
+                                            <h5>86.000đ</h5>
+                                        </div>
+
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/dongho.jpg"
+                                                alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
+                                            </div>
+                                            <h5>86.000đ</h5>
+                                        </div>
+
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/giay.jpg" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
+                                            </div>
+                                            <h5>86.000đ</h5>
+                                        </div>
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/son.png" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
+                                            </div>
+                                            <h5>86.000đ</h5>
+                                        </div>
+                                        <div class="product-card-item gap-10 swiper-slide">
+                                            <img class="product-card-img" src="./assets/image/feature/latte.jpg" alt="">
+                                            <p class="product-card-name">Thực Phẩm Bổ Sung Bánh gạo Gerber...</p>
+                                            <div class="flex gap-8">
+                                                <div class="flex">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" class=""
+                                                        alt="">
+                                                    <img class="icon-xs"
+                                                        src="./assets/image/product-detail/yello-star.svg" alt="">
+                                                </div>
+                                                <p>(1.1k)</p>
+                                            </div>
+                                            <h5>86.000đ</h5>
+                                        </div>
+
+                                    </div>
+                                    <!-- <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div> -->
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </section>
                             <section class="section-container product-listing flex">
                                 <div class="product-listing-header flex w-full">
                                     <div class="flex gap-12">
@@ -1612,11 +2063,7 @@
                                             </div>
                                             <h5>86.000đ</h5>
                                         </div>
-
                                     </div>
-
-
-
                                 </div>
                                 <div class="recomendation-button-group flex">
                                     <button class="flex gap-8 font-semibold more-less-btn-orange">
@@ -1821,6 +2268,9 @@
             </div>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./assets/js/swiper.js"></script>
+
 </body>
 
 </html>

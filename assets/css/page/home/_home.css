@@ -71,7 +71,6 @@ flex-grow: 1;
   .product-card-box {
     display: flex;
     flex-direction: column;
-    /* min-width: 188px; */
 }
 .product-card-box .product-card-img{
     
@@ -90,4 +89,17 @@ flex-grow: 1;
 img.menu-hidden {
     width: 24px;
 }
-
+.swiper-slide img, .swiper-slide .product-card-name  {
+    margin-bottom: 10px;
+}
+.swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 0;
+    position: relative;
+    font-size: 24px
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 24px;
+}
+.swiper-button-next, .swiper-button-prev {
+    font-size: 24px !important;
+}
